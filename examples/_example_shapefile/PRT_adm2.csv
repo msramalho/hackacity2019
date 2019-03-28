@@ -1,0 +1,307 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","ID_2","NAME_2","TYPE_2","ENGTYPE_2","NL_NAME_2","VARNAME_2"
+1,182,"PRT","Portugal",1,"Évora",1,"Évora","Concelho","Municipality",NA,NA
+2,182,"PRT","Portugal",1,"Évora",2,"Alandroal","Concelho","Municipality",NA,NA
+3,182,"PRT","Portugal",1,"Évora",3,"Arraiolos","Concelho","Municipality",NA,NA
+4,182,"PRT","Portugal",1,"Évora",4,"Borba","Concelho","Municipality",NA,NA
+5,182,"PRT","Portugal",1,"Évora",5,"Estremoz","Concelho","Municipality",NA,NA
+6,182,"PRT","Portugal",1,"Évora",6,"Montemor-o-Novo","Concelho","Municipality",NA,NA
+7,182,"PRT","Portugal",1,"Évora",7,"Mora","Concelho","Municipality",NA,NA
+8,182,"PRT","Portugal",1,"Évora",8,"Mourão","Concelho","Municipality",NA,NA
+9,182,"PRT","Portugal",1,"Évora",9,"Portel","Concelho","Municipality",NA,NA
+10,182,"PRT","Portugal",1,"Évora",10,"Redondo","Concelho","Municipality",NA,NA
+11,182,"PRT","Portugal",1,"Évora",11,"Reguengos de Monsaraz","Concelho","Municipality",NA,NA
+12,182,"PRT","Portugal",1,"Évora",12,"Vendas Novas","Concelho","Municipality",NA,NA
+13,182,"PRT","Portugal",1,"Évora",13,"Viana do Alentejo","Concelho","Municipality",NA,NA
+14,182,"PRT","Portugal",1,"Évora",14,"Vila Viçosa","Concelho","Municipality",NA,NA
+15,182,"PRT","Portugal",2,"Aveiro",15,"Águeda","Concelho","Municipality",NA,NA
+16,182,"PRT","Portugal",2,"Aveiro",16,"Ílhavo","Concelho","Municipality",NA,NA
+17,182,"PRT","Portugal",2,"Aveiro",17,"Albergaria-a-Velha","Concelho","Municipality",NA,NA
+18,182,"PRT","Portugal",2,"Aveiro",18,"Anadia","Concelho","Municipality",NA,NA
+19,182,"PRT","Portugal",2,"Aveiro",19,"Arouca","Concelho","Municipality",NA,NA
+20,182,"PRT","Portugal",2,"Aveiro",20,"Aveiro","Concelho","Municipality",NA,NA
+21,182,"PRT","Portugal",2,"Aveiro",21,"Castelo de Paiva","Concelho","Municipality",NA,NA
+22,182,"PRT","Portugal",2,"Aveiro",22,"Espinho","Concelho","Municipality",NA,NA
+23,182,"PRT","Portugal",2,"Aveiro",23,"Estarreja","Concelho","Municipality",NA,NA
+24,182,"PRT","Portugal",2,"Aveiro",24,"Mealhada","Concelho","Municipality",NA,NA
+25,182,"PRT","Portugal",2,"Aveiro",25,"Murtosa","Concelho","Municipality",NA,NA
+26,182,"PRT","Portugal",2,"Aveiro",26,"Oliveira de Azeméis","Concelho","Municipality",NA,NA
+27,182,"PRT","Portugal",2,"Aveiro",27,"Oliveira do Bairro","Concelho","Municipality",NA,NA
+28,182,"PRT","Portugal",2,"Aveiro",28,"Ovar","Concelho","Municipality",NA,NA
+29,182,"PRT","Portugal",2,"Aveiro",29,"São João da Madeira","Concelho","Municipality",NA,NA
+30,182,"PRT","Portugal",2,"Aveiro",30,"Santa Maria da Feira","Concelho","Municipality",NA,"Feira"
+31,182,"PRT","Portugal",2,"Aveiro",31,"Sever do Vouga","Concelho","Municipality",NA,NA
+32,182,"PRT","Portugal",2,"Aveiro",32,"Vagos","Concelho","Municipality",NA,NA
+33,182,"PRT","Portugal",2,"Aveiro",33,"Vale de Cambra","Concelho","Municipality",NA,NA
+34,182,"PRT","Portugal",3,"Azores",34,"Angra do Heroísmo","Concelho","Municipality","'<U+0250>~g<U+027E><U+0250> du e<U+027E>u'i<U+0292>mu","Angra"
+35,182,"PRT","Portugal",3,"Azores",35,"Calheta","Concelho","Municipality",NA,NA
+36,182,"PRT","Portugal",3,"Azores",36,"Corvo","Concelho","Municipality",NA,"Korvu"
+37,182,"PRT","Portugal",3,"Azores",37,"Horta","Concelho","Municipality",NA,NA
+38,182,"PRT","Portugal",3,"Azores",38,"Lagoa","Concelho","Municipality",NA,NA
+39,182,"PRT","Portugal",3,"Azores",39,"Lajes das Flores","Concelho","Municipality",NA,NA
+40,182,"PRT","Portugal",3,"Azores",40,"Lajes do Pico","Concelho","Municipality",NA,NA
+41,182,"PRT","Portugal",3,"Azores",41,"Madalena","Concelho","Municipality",NA,NA
+42,182,"PRT","Portugal",3,"Azores",42,"Nordeste","Concelho","Municipality",NA,NA
+43,182,"PRT","Portugal",3,"Azores",43,"Ponta Delgada","Concelho","Municipality",NA,NA
+44,182,"PRT","Portugal",3,"Azores",44,"Povoação","Concelho","Municipality",NA,NA
+45,182,"PRT","Portugal",3,"Azores",45,"Praia da Vitória","Concelho","Municipality",NA,NA
+46,182,"PRT","Portugal",3,"Azores",46,"Ribeira Grande","Concelho","Municipality",NA,NA
+47,182,"PRT","Portugal",3,"Azores",47,"São Roque do Pico","Concelho","Municipality",NA,NA
+48,182,"PRT","Portugal",3,"Azores",48,"Santa Cruz da Graciosa","Concelho","Municipality",NA,NA
+49,182,"PRT","Portugal",3,"Azores",49,"Santa Cruz das Flores","Concelho","Municipality",NA,NA
+50,182,"PRT","Portugal",3,"Azores",50,"Velas","Concelho","Municipality",NA,NA
+51,182,"PRT","Portugal",3,"Azores",51,"Vila do Porto","Concelho","Municipality",NA,NA
+52,182,"PRT","Portugal",3,"Azores",52,"Vila Franca do Campo","Concelho","Municipality",NA,NA
+53,182,"PRT","Portugal",4,"Beja",53,"Aljustrel","Concelho","Municipality",NA,NA
+54,182,"PRT","Portugal",4,"Beja",54,"Almodôvar","Concelho","Municipality",NA,NA
+55,182,"PRT","Portugal",4,"Beja",55,"Alvito","Concelho","Municipality",NA,NA
+56,182,"PRT","Portugal",4,"Beja",56,"Barrancos","Concelho","Municipality",NA,NA
+57,182,"PRT","Portugal",4,"Beja",57,"Beja","Concelho","Municipality",NA,NA
+58,182,"PRT","Portugal",4,"Beja",58,"Castro Verde","Concelho","Municipality",NA,NA
+59,182,"PRT","Portugal",4,"Beja",59,"Cuba","Concelho","Municipality",NA,NA
+60,182,"PRT","Portugal",4,"Beja",60,"Ferreira do Alentejo","Concelho","Municipality",NA,NA
+61,182,"PRT","Portugal",4,"Beja",61,"Mértola","Concelho","Municipality",NA,NA
+62,182,"PRT","Portugal",4,"Beja",62,"Moura","Concelho","Municipality",NA,NA
+63,182,"PRT","Portugal",4,"Beja",63,"Odemira","Concelho","Municipality",NA,NA
+64,182,"PRT","Portugal",4,"Beja",64,"Ourique","Concelho","Municipality",NA,NA
+65,182,"PRT","Portugal",4,"Beja",65,"Serpa","Concelho","Municipality",NA,NA
+66,182,"PRT","Portugal",4,"Beja",66,"Vidigueira","Concelho","Municipality",NA,NA
+67,182,"PRT","Portugal",5,"Braga",67,"Amares","Concelho","Municipality",NA,NA
+68,182,"PRT","Portugal",5,"Braga",68,"Barcelos","Concelho","Municipality",NA,NA
+69,182,"PRT","Portugal",5,"Braga",69,"Braga","Concelho","Municipality",NA,NA
+70,182,"PRT","Portugal",5,"Braga",70,"Cabeceiras de Basto","Concelho","Municipality",NA,NA
+71,182,"PRT","Portugal",5,"Braga",71,"Celorico de Basto","Concelho","Municipality",NA,NA
+72,182,"PRT","Portugal",5,"Braga",72,"Esposende","Concelho","Municipality",NA,NA
+73,182,"PRT","Portugal",5,"Braga",73,"Fafe","Concelho","Municipality",NA,NA
+74,182,"PRT","Portugal",5,"Braga",74,"Póvoa de Lanhoso","Concelho","Municipality",NA,NA
+75,182,"PRT","Portugal",5,"Braga",75,"Terras de Bouro","Concelho","Municipality",NA,NA
+76,182,"PRT","Portugal",5,"Braga",76,"Vieira do Minho","Concelho","Municipality",NA,NA
+77,182,"PRT","Portugal",5,"Braga",77,"Vila Nova de Famalicão","Concelho","Municipality",NA,NA
+78,182,"PRT","Portugal",5,"Braga",78,"Vila Verde","Concelho","Municipality",NA,NA
+79,182,"PRT","Portugal",5,"Braga",79,"Vizela","Concelho","Municipality",NA,NA
+80,182,"PRT","Portugal",6,"Bragança",80,"Alfândega da Fé","Concelho","Municipality",NA,NA
+81,182,"PRT","Portugal",6,"Bragança",81,"Bragança","Concelho","Municipality",NA,NA
+82,182,"PRT","Portugal",6,"Bragança",82,"Carrazeda de Ansiães","Concelho","Municipality",NA,NA
+83,182,"PRT","Portugal",6,"Bragança",83,"Freixo de Espada à Cinta","Concelho","Municipality",NA,NA
+84,182,"PRT","Portugal",6,"Bragança",84,"Macedo de Cavaleiros","Concelho","Municipality",NA,NA
+85,182,"PRT","Portugal",6,"Bragança",85,"Miranda do Douro","Concelho","Municipality",NA,NA
+86,182,"PRT","Portugal",6,"Bragança",86,"Mirandela","Concelho","Municipality",NA,NA
+87,182,"PRT","Portugal",6,"Bragança",87,"Mogadouro","Concelho","Municipality",NA,NA
+88,182,"PRT","Portugal",6,"Bragança",88,"Torre de Moncorvo","Concelho","Municipality",NA,NA
+89,182,"PRT","Portugal",6,"Bragança",89,"Vila Flor","Concelho","Municipality",NA,NA
+90,182,"PRT","Portugal",6,"Bragança",90,"Vimioso","Concelho","Municipality",NA,NA
+91,182,"PRT","Portugal",6,"Bragança",91,"Vinhais","Concelho","Municipality",NA,NA
+92,182,"PRT","Portugal",7,"Castelo Branco",92,"Belmonte","Concelho","Municipality",NA,NA
+93,182,"PRT","Portugal",7,"Castelo Branco",93,"Castelo Branco","Concelho","Municipality",NA,NA
+94,182,"PRT","Portugal",7,"Castelo Branco",94,"Covilhã","Concelho","Municipality",NA,NA
+95,182,"PRT","Portugal",7,"Castelo Branco",95,"Fundão","Concelho","Municipality",NA,NA
+96,182,"PRT","Portugal",7,"Castelo Branco",96,"Idanha-a-Nova","Concelho","Municipality",NA,NA
+97,182,"PRT","Portugal",7,"Castelo Branco",97,"Oleiros","Concelho","Municipality",NA,NA
+98,182,"PRT","Portugal",7,"Castelo Branco",98,"Penamacor","Concelho","Municipality",NA,NA
+99,182,"PRT","Portugal",7,"Castelo Branco",99,"Proença-a-Nova","Concelho","Municipality",NA,NA
+100,182,"PRT","Portugal",7,"Castelo Branco",100,"Sertã","Concelho","Municipality",NA,NA
+101,182,"PRT","Portugal",7,"Castelo Branco",101,"Vila de Rei","Concelho","Municipality",NA,NA
+102,182,"PRT","Portugal",7,"Castelo Branco",102,"Vila Velha de Ródão","Concelho","Municipality",NA,NA
+103,182,"PRT","Portugal",8,"Coimbra",103,"Arganil","Concelho","Municipality",NA,NA
+104,182,"PRT","Portugal",8,"Coimbra",104,"Cantanhede","Concelho","Municipality",NA,NA
+105,182,"PRT","Portugal",8,"Coimbra",105,"Coimbra","Concelho","Municipality",NA,NA
+106,182,"PRT","Portugal",8,"Coimbra",106,"Condeixa-a-Nova","Concelho","Municipality",NA,NA
+107,182,"PRT","Portugal",8,"Coimbra",107,"Figueira da Foz","Concelho","Municipality",NA,NA
+108,182,"PRT","Portugal",8,"Coimbra",108,"Góis","Concelho","Municipality",NA,NA
+109,182,"PRT","Portugal",8,"Coimbra",109,"Lousã","Concelho","Municipality",NA,NA
+110,182,"PRT","Portugal",8,"Coimbra",110,"Mira","Concelho","Municipality",NA,NA
+111,182,"PRT","Portugal",8,"Coimbra",111,"Miranda do Corvo","Concelho","Municipality",NA,NA
+112,182,"PRT","Portugal",8,"Coimbra",112,"Montemor-o-Velho","Concelho","Municipality",NA,NA
+113,182,"PRT","Portugal",8,"Coimbra",113,"Oliveira do Hospital","Concelho","Municipality",NA,NA
+114,182,"PRT","Portugal",8,"Coimbra",114,"Pampilhosa da Serra","Concelho","Municipality",NA,NA
+115,182,"PRT","Portugal",8,"Coimbra",115,"Penacova","Concelho","Municipality",NA,NA
+116,182,"PRT","Portugal",8,"Coimbra",116,"Penela","Concelho","Municipality",NA,NA
+117,182,"PRT","Portugal",8,"Coimbra",117,"Soure","Concelho","Municipality",NA,NA
+118,182,"PRT","Portugal",8,"Coimbra",118,"Tábua","Concelho","Municipality",NA,NA
+119,182,"PRT","Portugal",8,"Coimbra",119,"Vila Nova de Poiares","Concelho","Municipality",NA,NA
+120,182,"PRT","Portugal",9,"Faro",120,"Albufeira","Concelho","Municipality",NA,NA
+121,182,"PRT","Portugal",9,"Faro",121,"Alcoutim","Concelho","Municipality",NA,NA
+122,182,"PRT","Portugal",9,"Faro",122,"Aljezur","Concelho","Municipality",NA,NA
+123,182,"PRT","Portugal",9,"Faro",123,"Castro Marim","Concelho","Municipality",NA,NA
+124,182,"PRT","Portugal",9,"Faro",124,"Faro","Concelho","Municipality",NA,NA
+125,182,"PRT","Portugal",9,"Faro",125,"Lagoa","Concelho","Municipality",NA,NA
+126,182,"PRT","Portugal",9,"Faro",126,"Lagos","Concelho","Municipality",NA,NA
+127,182,"PRT","Portugal",9,"Faro",127,"Loulé","Concelho","Municipality",NA,NA
+128,182,"PRT","Portugal",9,"Faro",128,"Monchique","Concelho","Municipality",NA,NA
+129,182,"PRT","Portugal",9,"Faro",129,"Olhão","Concelho","Municipality",NA,NA
+130,182,"PRT","Portugal",9,"Faro",130,"Portimão","Concelho","Municipality",NA,NA
+131,182,"PRT","Portugal",9,"Faro",131,"São Brás de Alportel","Concelho","Municipality",NA,NA
+132,182,"PRT","Portugal",9,"Faro",132,"Silves","Concelho","Municipality",NA,NA
+133,182,"PRT","Portugal",9,"Faro",133,"Vila do Bispo","Concelho","Municipality",NA,NA
+134,182,"PRT","Portugal",9,"Faro",134,"Vila Real de Santo António","Concelho","Municipality",NA,NA
+135,182,"PRT","Portugal",10,"Guarda",135,"Aguiar da Beira","Concelho","Municipality",NA,NA
+136,182,"PRT","Portugal",10,"Guarda",136,"Almeida","Concelho","Municipality",NA,NA
+137,182,"PRT","Portugal",10,"Guarda",137,"Celorico da Beira","Concelho","Municipality",NA,NA
+138,182,"PRT","Portugal",10,"Guarda",138,"Figueira de Castelo Rodrigo","Concelho","Municipality",NA,NA
+139,182,"PRT","Portugal",10,"Guarda",139,"Fornos de Algodres","Concelho","Municipality",NA,NA
+140,182,"PRT","Portugal",10,"Guarda",140,"Gouveia","Concelho","Municipality",NA,NA
+141,182,"PRT","Portugal",10,"Guarda",141,"Guarda","Concelho","Municipality",NA,NA
+142,182,"PRT","Portugal",10,"Guarda",142,"Mêda","Concelho","Municipality",NA,NA
+143,182,"PRT","Portugal",10,"Guarda",143,"Manteigas","Concelho","Municipality",NA,NA
+144,182,"PRT","Portugal",10,"Guarda",144,"Pinhel","Concelho","Municipality",NA,NA
+145,182,"PRT","Portugal",10,"Guarda",145,"Sabugal","Concelho","Municipality",NA,NA
+146,182,"PRT","Portugal",10,"Guarda",146,"Seia","Concelho","Municipality",NA,NA
+147,182,"PRT","Portugal",10,"Guarda",147,"Trancoso","Concelho","Municipality",NA,NA
+148,182,"PRT","Portugal",10,"Guarda",148,"Vila Nova de Foz Côa","Concelho","Municipality",NA,NA
+149,182,"PRT","Portugal",11,"Leiria",149,"Óbidos","Concelho","Municipality",NA,NA
+150,182,"PRT","Portugal",11,"Leiria",150,"Alcobaça","Concelho","Municipality",NA,NA
+151,182,"PRT","Portugal",11,"Leiria",151,"Alvaiázere","Concelho","Municipality",NA,NA
+152,182,"PRT","Portugal",11,"Leiria",152,"Ansião","Concelho","Municipality",NA,NA
+153,182,"PRT","Portugal",11,"Leiria",153,"Batalha","Concelho","Municipality",NA,NA
+154,182,"PRT","Portugal",11,"Leiria",154,"Bombarral","Concelho","Municipality",NA,NA
+155,182,"PRT","Portugal",11,"Leiria",155,"Caldas da Rainha","Concelho","Municipality",NA,NA
+156,182,"PRT","Portugal",11,"Leiria",156,"Castanheira de Pêra","Concelho","Municipality",NA,NA
+157,182,"PRT","Portugal",11,"Leiria",157,"Figueiró dos Vinhos","Concelho","Municipality",NA,NA
+158,182,"PRT","Portugal",11,"Leiria",158,"Leiria","Concelho","Municipality",NA,NA
+159,182,"PRT","Portugal",11,"Leiria",159,"Marinha Grande","Concelho","Municipality",NA,NA
+160,182,"PRT","Portugal",11,"Leiria",160,"Nazaré","Concelho","Municipality",NA,NA
+161,182,"PRT","Portugal",11,"Leiria",161,"Pedrógão Grande","Concelho","Municipality",NA,NA
+162,182,"PRT","Portugal",11,"Leiria",162,"Peniche","Concelho","Municipality",NA,NA
+163,182,"PRT","Portugal",11,"Leiria",163,"Pombal","Concelho","Municipality",NA,NA
+164,182,"PRT","Portugal",11,"Leiria",164,"Porto de Mós","Concelho","Municipality",NA,NA
+165,182,"PRT","Portugal",12,"Lisboa",165,"Alenquer","Concelho","Municipality",NA,NA
+166,182,"PRT","Portugal",12,"Lisboa",166,"Amadora","Concelho","Municipality",NA,NA
+167,182,"PRT","Portugal",12,"Lisboa",167,"Arruda dos Vinhos","Concelho","Municipality",NA,NA
+168,182,"PRT","Portugal",12,"Lisboa",168,"Azambuja","Concelho","Municipality",NA,NA
+169,182,"PRT","Portugal",12,"Lisboa",169,"Cadaval","Concelho","Municipality",NA,NA
+170,182,"PRT","Portugal",12,"Lisboa",170,"Cascais","Concelho","Municipality",NA,NA
+171,182,"PRT","Portugal",12,"Lisboa",171,"Lisboa","Concelho","Municipality",NA,NA
+172,182,"PRT","Portugal",12,"Lisboa",172,"Loures","Concelho","Municipality",NA,NA
+173,182,"PRT","Portugal",12,"Lisboa",173,"Lourinhã","Concelho","Municipality",NA,NA
+174,182,"PRT","Portugal",12,"Lisboa",174,"Mafra","Concelho","Municipality",NA,NA
+175,182,"PRT","Portugal",12,"Lisboa",175,"Odivelas","Concelho","Municipality",NA,NA
+176,182,"PRT","Portugal",12,"Lisboa",176,"Oeiras","Concelho","Municipality",NA,NA
+177,182,"PRT","Portugal",12,"Lisboa",177,"Sintra","Concelho","Municipality",NA,NA
+178,182,"PRT","Portugal",12,"Lisboa",178,"Sobral de Monte Agraço","Concelho","Municipality",NA,NA
+179,182,"PRT","Portugal",12,"Lisboa",179,"Torres Vedras","Concelho","Municipality",NA,NA
+180,182,"PRT","Portugal",12,"Lisboa",180,"Vila Franca de Xira","Concelho","Municipality",NA,NA
+181,182,"PRT","Portugal",13,"Madeira",181,"Câmara de Lobos","Concelho","Municipality",NA,NA
+182,182,"PRT","Portugal",13,"Madeira",182,"Calheta","Concelho","Municipality",NA,NA
+183,182,"PRT","Portugal",13,"Madeira",183,"Funchal","Concelho","Municipality",NA,NA
+184,182,"PRT","Portugal",13,"Madeira",184,"Machico","Concelho","Municipality",NA,NA
+185,182,"PRT","Portugal",13,"Madeira",185,"Ponta do Sol","Concelho","Municipality",NA,NA
+186,182,"PRT","Portugal",13,"Madeira",186,"Porto Moniz","Concelho","Municipality",NA,NA
+187,182,"PRT","Portugal",13,"Madeira",187,"Porto Santo","Concelho","Municipality",NA,NA
+188,182,"PRT","Portugal",13,"Madeira",188,"Ribeira Brava","Concelho","Municipality",NA,NA
+189,182,"PRT","Portugal",13,"Madeira",189,"São Vicente","Concelho","Municipality",NA,NA
+190,182,"PRT","Portugal",13,"Madeira",190,"Santa Cruz","Concelho","Municipality",NA,NA
+191,182,"PRT","Portugal",13,"Madeira",191,"Santana","Concelho","Municipality",NA,NA
+192,182,"PRT","Portugal",14,"Portalegre",192,"Alter do Chão","Concelho","Municipality",NA,NA
+193,182,"PRT","Portugal",14,"Portalegre",193,"Arronches","Concelho","Municipality",NA,NA
+194,182,"PRT","Portugal",14,"Portalegre",194,"Avis","Concelho","Municipality",NA,NA
+195,182,"PRT","Portugal",14,"Portalegre",195,"Campo Maior","Concelho","Municipality",NA,NA
+196,182,"PRT","Portugal",14,"Portalegre",196,"Castelo de Vide","Concelho","Municipality",NA,NA
+197,182,"PRT","Portugal",14,"Portalegre",197,"Crato","Concelho","Municipality",NA,NA
+198,182,"PRT","Portugal",14,"Portalegre",198,"Elvas","Concelho","Municipality",NA,NA
+199,182,"PRT","Portugal",14,"Portalegre",199,"Fronteira","Concelho","Municipality",NA,NA
+200,182,"PRT","Portugal",14,"Portalegre",200,"Gavião","Concelho","Municipality",NA,NA
+201,182,"PRT","Portugal",14,"Portalegre",201,"Marvão","Concelho","Municipality",NA,NA
+202,182,"PRT","Portugal",14,"Portalegre",202,"Monforte","Concelho","Municipality",NA,NA
+203,182,"PRT","Portugal",14,"Portalegre",203,"Nisa","Concelho","Municipality",NA,NA
+204,182,"PRT","Portugal",14,"Portalegre",204,"Ponte de Sôr","Concelho","Municipality",NA,NA
+205,182,"PRT","Portugal",14,"Portalegre",205,"Portalegre","Concelho","Municipality",NA,NA
+206,182,"PRT","Portugal",14,"Portalegre",206,"Sousel","Concelho","Municipality",NA,NA
+207,182,"PRT","Portugal",15,"Porto",207,"Amarante","Concelho","Municipality",NA,NA
+208,182,"PRT","Portugal",15,"Porto",208,"Baião","Concelho","Municipality",NA,NA
+209,182,"PRT","Portugal",15,"Porto",209,"Felgueiras","Concelho","Municipality",NA,NA
+210,182,"PRT","Portugal",15,"Porto",210,"Gondomar","Concelho","Municipality",NA,NA
+211,182,"PRT","Portugal",15,"Porto",211,"Lousada","Concelho","Municipality",NA,NA
+212,182,"PRT","Portugal",15,"Porto",212,"Maia","Concelho","Municipality",NA,NA
+213,182,"PRT","Portugal",15,"Porto",213,"Marco de Canaveses","Concelho","Municipality",NA,NA
+214,182,"PRT","Portugal",15,"Porto",214,"Matosinhos","Concelho","Municipality",NA,NA
+215,182,"PRT","Portugal",15,"Porto",215,"Póvoa de Varzim","Concelho","Municipality",NA,NA
+216,182,"PRT","Portugal",15,"Porto",216,"Paços de Ferreira","Concelho","Municipality",NA,NA
+217,182,"PRT","Portugal",15,"Porto",217,"Paredes","Concelho","Municipality",NA,NA
+218,182,"PRT","Portugal",15,"Porto",218,"Penafiel","Concelho","Municipality",NA,NA
+219,182,"PRT","Portugal",15,"Porto",219,"Porto","Concelho","Municipality",NA,NA
+220,182,"PRT","Portugal",15,"Porto",220,"Santo Tirso","Concelho","Municipality",NA,NA
+221,182,"PRT","Portugal",15,"Porto",221,"Trofa","Concelho","Municipality",NA,NA
+222,182,"PRT","Portugal",15,"Porto",222,"Valongo","Concelho","Municipality",NA,NA
+223,182,"PRT","Portugal",15,"Porto",223,"Vila do Conde","Concelho","Municipality",NA,NA
+224,182,"PRT","Portugal",15,"Porto",224,"Vila Nova de Gaia","Concelho","Municipality",NA,NA
+225,182,"PRT","Portugal",16,"Santarém",225,"Abrantes","Concelho","Municipality",NA,NA
+226,182,"PRT","Portugal",16,"Santarém",226,"Alcanena","Concelho","Municipality",NA,NA
+227,182,"PRT","Portugal",16,"Santarém",227,"Almeirim","Concelho","Municipality",NA,NA
+228,182,"PRT","Portugal",16,"Santarém",228,"Alpiarça","Concelho","Municipality",NA,NA
+229,182,"PRT","Portugal",16,"Santarém",229,"Benavente","Concelho","Municipality",NA,NA
+230,182,"PRT","Portugal",16,"Santarém",230,"Cartaxo","Concelho","Municipality",NA,NA
+231,182,"PRT","Portugal",16,"Santarém",231,"Chamusca","Concelho","Municipality",NA,NA
+232,182,"PRT","Portugal",16,"Santarém",232,"Constância","Concelho","Municipality",NA,NA
+233,182,"PRT","Portugal",16,"Santarém",233,"Coruche","Concelho","Municipality",NA,NA
+234,182,"PRT","Portugal",16,"Santarém",234,"Entroncamento","Concelho","Municipality",NA,NA
+235,182,"PRT","Portugal",16,"Santarém",235,"Ferreira do Zêzere","Concelho","Municipality",NA,NA
+236,182,"PRT","Portugal",16,"Santarém",236,"Golegã","Concelho","Municipality",NA,NA
+237,182,"PRT","Portugal",16,"Santarém",237,"Mação","Concelho","Municipality",NA,NA
+238,182,"PRT","Portugal",16,"Santarém",238,"Ourém","Concelho","Municipality",NA,NA
+239,182,"PRT","Portugal",16,"Santarém",239,"Rio Maior","Concelho","Municipality",NA,NA
+240,182,"PRT","Portugal",16,"Santarém",240,"Salvaterra de Magos","Concelho","Municipality",NA,NA
+241,182,"PRT","Portugal",16,"Santarém",241,"Santarém","Concelho","Municipality",NA,NA
+242,182,"PRT","Portugal",16,"Santarém",242,"Sardoal","Concelho","Municipality",NA,NA
+243,182,"PRT","Portugal",16,"Santarém",243,"Tomar","Concelho","Municipality",NA,NA
+244,182,"PRT","Portugal",16,"Santarém",244,"Torres Novas","Concelho","Municipality",NA,NA
+245,182,"PRT","Portugal",16,"Santarém",245,"Vila Nova da Barquinha","Concelho","Municipality",NA,NA
+246,182,"PRT","Portugal",17,"Setúbal",246,"Alcácer do Sal","Concelho","Municipality",NA,NA
+247,182,"PRT","Portugal",17,"Setúbal",247,"Alcochete","Concelho","Municipality",NA,NA
+248,182,"PRT","Portugal",17,"Setúbal",248,"Almada","Concelho","Municipality",NA,NA
+249,182,"PRT","Portugal",17,"Setúbal",249,"Barreiro","Concelho","Municipality",NA,NA
+250,182,"PRT","Portugal",17,"Setúbal",250,"Grândola","Concelho","Municipality",NA,NA
+251,182,"PRT","Portugal",17,"Setúbal",251,"Moita","Concelho","Municipality",NA,NA
+252,182,"PRT","Portugal",17,"Setúbal",252,"Montijo","Concelho","Municipality",NA,NA
+253,182,"PRT","Portugal",17,"Setúbal",253,"Palmela","Concelho","Municipality",NA,NA
+254,182,"PRT","Portugal",17,"Setúbal",254,"Santiago do Cacém","Concelho","Municipality",NA,NA
+255,182,"PRT","Portugal",17,"Setúbal",255,"Seixal","Concelho","Municipality",NA,NA
+256,182,"PRT","Portugal",17,"Setúbal",256,"Sesimbra","Concelho","Municipality",NA,NA
+257,182,"PRT","Portugal",17,"Setúbal",257,"Setúbal","Concelho","Municipality",NA,NA
+258,182,"PRT","Portugal",17,"Setúbal",258,"Sines","Concelho","Municipality",NA,NA
+259,182,"PRT","Portugal",18,"Viana do Castelo",259,"Arcos de Valdevez","Concelho","Municipality",NA,NA
+260,182,"PRT","Portugal",18,"Viana do Castelo",260,"Caminha","Concelho","Municipality",NA,NA
+261,182,"PRT","Portugal",18,"Viana do Castelo",261,"Melgaço","Concelho","Municipality",NA,NA
+262,182,"PRT","Portugal",18,"Viana do Castelo",262,"Monção","Concelho","Municipality",NA,NA
+263,182,"PRT","Portugal",18,"Viana do Castelo",263,"Paredes de Coura","Concelho","Municipality",NA,NA
+264,182,"PRT","Portugal",18,"Viana do Castelo",264,"Ponte da Barca","Concelho","Municipality",NA,NA
+265,182,"PRT","Portugal",18,"Viana do Castelo",265,"Ponte de Lima","Concelho","Municipality",NA,NA
+266,182,"PRT","Portugal",18,"Viana do Castelo",266,"Valença","Concelho","Municipality",NA,NA
+267,182,"PRT","Portugal",18,"Viana do Castelo",267,"Viana do Castelo","Concelho","Municipality",NA,NA
+268,182,"PRT","Portugal",18,"Viana do Castelo",268,"Vila Nova de Cerveira","Concelho","Municipality",NA,NA
+269,182,"PRT","Portugal",19,"Vila Real",269,"Alijó","Concelho","Municipality",NA,NA
+270,182,"PRT","Portugal",19,"Vila Real",270,"Boticas","Concelho","Municipality",NA,NA
+271,182,"PRT","Portugal",19,"Vila Real",271,"Chaves","Concelho","Municipality",NA,NA
+272,182,"PRT","Portugal",19,"Vila Real",272,"Mesão Frio","Concelho","Municipality",NA,NA
+273,182,"PRT","Portugal",19,"Vila Real",273,"Mondim de Basto","Concelho","Municipality",NA,NA
+274,182,"PRT","Portugal",19,"Vila Real",274,"Montalegre","Concelho","Municipality",NA,NA
+275,182,"PRT","Portugal",19,"Vila Real",275,"Murça","Concelho","Municipality",NA,NA
+276,182,"PRT","Portugal",19,"Vila Real",276,"Peso da Régua","Concelho","Municipality",NA,NA
+277,182,"PRT","Portugal",19,"Vila Real",277,"Ribeira de Pena","Concelho","Municipality",NA,NA
+278,182,"PRT","Portugal",19,"Vila Real",278,"Sabrosa","Concelho","Municipality",NA,NA
+279,182,"PRT","Portugal",19,"Vila Real",279,"Santa Marta de Penaguião","Concelho","Municipality",NA,NA
+280,182,"PRT","Portugal",19,"Vila Real",280,"Valpaços","Concelho","Municipality",NA,NA
+281,182,"PRT","Portugal",19,"Vila Real",281,"Vila Pouca de Aguiar","Concelho","Municipality",NA,NA
+282,182,"PRT","Portugal",19,"Vila Real",282,"Vila Real","Concelho","Municipality",NA,NA
+283,182,"PRT","Portugal",20,"Viseu",283,"Armamar","Concelho","Municipality",NA,NA
+284,182,"PRT","Portugal",20,"Viseu",284,"Carregal do Sal","Concelho","Municipality",NA,NA
+285,182,"PRT","Portugal",20,"Viseu",285,"Castro Daire","Concelho","Municipality",NA,NA
+286,182,"PRT","Portugal",20,"Viseu",286,"Cinfães","Concelho","Municipality",NA,NA
+287,182,"PRT","Portugal",20,"Viseu",287,"Lamego","Concelho","Municipality",NA,NA
+288,182,"PRT","Portugal",20,"Viseu",288,"Mangualde","Concelho","Municipality",NA,NA
+289,182,"PRT","Portugal",20,"Viseu",289,"Moimenta da Beira","Concelho","Municipality",NA,NA
+290,182,"PRT","Portugal",20,"Viseu",290,"Mortágua","Concelho","Municipality",NA,NA
+291,182,"PRT","Portugal",20,"Viseu",291,"Nelas","Concelho","Municipality",NA,NA
+292,182,"PRT","Portugal",20,"Viseu",292,"Oliveira de Frades","Concelho","Municipality",NA,NA
+293,182,"PRT","Portugal",20,"Viseu",293,"Penalva do Castelo","Concelho","Municipality",NA,NA
+294,182,"PRT","Portugal",20,"Viseu",294,"Penedono","Concelho","Municipality",NA,NA
+295,182,"PRT","Portugal",20,"Viseu",295,"Resende","Concelho","Municipality",NA,NA
+296,182,"PRT","Portugal",20,"Viseu",296,"Sátão","Concelho","Municipality",NA,NA
+297,182,"PRT","Portugal",20,"Viseu",297,"São João da Pesqueira","Concelho","Municipality",NA,NA
+298,182,"PRT","Portugal",20,"Viseu",298,"São Pedro do Sul","Concelho","Municipality",NA,NA
+299,182,"PRT","Portugal",20,"Viseu",299,"Santa Comba Dão","Concelho","Municipality",NA,NA
+300,182,"PRT","Portugal",20,"Viseu",300,"Sernancelhe","Concelho","Municipality",NA,NA
+301,182,"PRT","Portugal",20,"Viseu",301,"Tabuaço","Concelho","Municipality",NA,NA
+302,182,"PRT","Portugal",20,"Viseu",302,"Tarouca","Concelho","Municipality",NA,NA
+303,182,"PRT","Portugal",20,"Viseu",303,"Tondela","Concelho","Municipality",NA,NA
+304,182,"PRT","Portugal",20,"Viseu",304,"Vila Nova de Paiva","Concelho","Municipality",NA,NA
+305,182,"PRT","Portugal",20,"Viseu",305,"Viseu","Concelho","Municipality",NA,NA
+306,182,"PRT","Portugal",20,"Viseu",306,"Vouzela","Concelho","Municipality",NA,NA
