@@ -5,7 +5,7 @@ import os
 import gmplot
 from statistics import mean
 
-# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, get_dataset_data_full, display_dataset_polygon 
+# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, get_dataset_data_full, try_to_display_dataset, display_dataset_polygon, display_dataset_points
 
 
 def create_polygons(coordinates, gmap=None, display=False):
@@ -25,6 +25,28 @@ def display_dataset_polygon(dataset):
     for datapoint in dataset:
         gmap = create_polygons(datapoint["coordinates"][0], gmap)
     display_plot(gmap)
+
+def create_points(coordinates, gmap=None, display=False):
+    lon, lat = tuple(coordinates)
+    gmap = gmplot.GoogleMapPlotter(lat, lon, 16) if not gmap else gmap
+    gmap.apikey = "AIzaSyA2B83Ome4_S-EXUe5zLTrkaGeZv-Ndft4"
+    gmap.scatter([lat], [lon], '#FF0000', size = 10, marker = False) 
+    if display: os.system("temp.html")
+    return gmap
+
+def display_dataset_points(dataset):
+    gmap = None
+    for datapoint in dataset:
+        gmap = create_points(datapoint["coordinates"], gmap)
+    display_plot(gmap)
+
+def try_to_display_dataset(dataset_name):
+    url = next(get_dataset_info(dataset_name))
+    # print(url)
+    dataset = list(get_dataset_data(url))
+    # coordinates are len 2, polygons are not
+    if len(dataset[0]["coordinates"]) == 2: display_dataset_points(dataset)
+    else: display_dataset_polygon(dataset)
 
 # List all datasets
 def get_all_datasets():
