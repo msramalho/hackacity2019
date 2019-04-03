@@ -5,7 +5,7 @@ import os
 import gmplot
 from statistics import mean
 
-# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, display_dataset_polygon
+# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, get_dataset_data_full, display_dataset_polygon 
 
 
 def create_polygons(coordinates, gmap=None, display=False):
@@ -81,3 +81,12 @@ def get_dataset_data(dataset_url, req_params={"f":"json"}, f="geojson", fields="
         data = requests.get(dataset_url + "/query", params=params).json()
         get_attributes = parse_features_geojson if f=="geojson" else parse_features_json
         return map(parse_features_geojson, data["features"])
+
+def get_dataset_data_full(dataset_url):
+    dataset = []
+    request_dataset = []
+    while len(request_dataset) == 1000 or dataset==[]:
+        request_dataset = list(get_dataset_data(dataset_url, offset=len(dataset)))
+        dataset+=request_dataset
+        if not len(request_dataset): break
+    return dataset

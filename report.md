@@ -8,3 +8,6 @@ In the [Alojamentos Locais Dataset](https://servsig.cm-porto.pt/arcgis/rest/serv
 
 ## Air quality
 WE WANT MORE SENSORS
+
+## Discrepancies in the Alojamentos data
+6657 alojamentos found, while only 6542 have unique coordinates
