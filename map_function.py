@@ -149,9 +149,12 @@ def how_many_close_poi(alojamento, pois, dist):
 
 def how_many_close_areas(alojamento, areas, dist):
     point = utm.from_latlon(alojamento['lat'], alojamento['lon'])[:2]
-    print(areas['lat'])
-
-    par_points = np.array([list(utm.from_latlon(la, lo)[:2]) for la, lo in zip(area['lat'], area['lon'])]])
-    print(par_points.shape)
-
-    print(par_points)
+    #print(areas['lat'][0])
+    n=0
+    for lats_of_one_area, lons_of_one_area in zip(areas['lat'], areas['lon']):
+        lats_lons = np.array([list(utm.from_latlon(la, lo)[:2]) for la, lo in zip(lats_of_one_area, lons_of_one_area)])
+        #print(lats_lons)
+        d = point_to_pol(lats_lons[:,0], lats_lons[:,1], point)
+        if d < dist:
+            n+=1
+    return n
