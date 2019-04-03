@@ -30,7 +30,7 @@ def create_points(coordinates, gmap=None, display=False):
     lon, lat = tuple(coordinates)
     gmap = gmplot.GoogleMapPlotter(lat, lon, 16) if not gmap else gmap
     gmap.apikey = "AIzaSyA2B83Ome4_S-EXUe5zLTrkaGeZv-Ndft4"
-    gmap.scatter([lat], [lon], '#FF0000', size = 10, marker = False) 
+    gmap.scatter([lat], [lon], '#FF0000', size = 25, marker = False) 
     if display: os.system("temp.html")
     return gmap
 
