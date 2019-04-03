@@ -1,8 +1,30 @@
 import pprint
 import requests
 import json
+import os
+import gmplot
+from statistics import mean
 
-# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data
+# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, display_dataset_polygon
+
+
+def create_polygons(coordinates, gmap=None, display=False):
+    lon, lat = tuple(map(list,zip(*coordinates)))
+    gmap = gmplot.GoogleMapPlotter(min(lat), mean(lon), 16) if not gmap else gmap
+    gmap.apikey = "AIzaSyA2B83Ome4_S-EXUe5zLTrkaGeZv-Ndft4"
+    gmap.polygon(lat, lon, color = 'cornflowerblue') 
+    if display: os.system("temp.html")
+    return gmap
+
+def display_plot(gmap, filename="temp.html"):
+    gmap.draw(filename)
+    os.system(filename)
+
+def display_dataset_polygon(dataset):
+    gmap = None
+    for datapoint in dataset:
+        gmap = create_polygons(datapoint["coordinates"][0], gmap)
+    display_plot(gmap)
 
 # List all datasets
 def get_all_datasets():
