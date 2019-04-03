@@ -6,8 +6,8 @@ attrs                     19.1.0                     py_0    conda-forge
 backcall                  0.1.0                      py_0    conda-forge
 blas                      1.0                         mkl  
 bzip2                     1.0.6                hfa6e2cd_5  
-ca-certificates           2019.1.23                     0  
-certifi                   2019.3.9                 py36_0  
+ca-certificates           2019.3.9             hecc5488_0    conda-forge
+certifi                   2019.3.9                 py36_0    conda-forge
 cffi                      1.12.2           py36h7a1dbc1_1  
 chardet                   3.0.4                    py36_1  
 click                     7.0                        py_0    conda-forge
@@ -62,7 +62,7 @@ mkl_random                1.0.2            py36h830ac7b_2    conda-forge
 munch                     2.3.2                      py_0    conda-forge
 numpy                     1.16.2           py36h19fb1c0_0  
 numpy-base                1.16.2           py36hc3f5095_0  
-openssl                   1.1.1b               he774522_1  
+openssl                   1.1.1b               hfa6e2cd_2    conda-forge
 pandas                    0.24.2           py36h6538335_0    conda-forge
 parso                     0.3.4                      py_0    conda-forge
 pcre                      8.43                 ha925a31_0  
@@ -87,6 +87,7 @@ requests                  2.21.0                   py36_0
 rtree                     0.8.3           py36h21ff451_1002    conda-forge
 scikit-learn              0.20.3           py36h343c172_0  
 scipy                     1.2.1            py36h29ff71c_0  
+selenium                  3.141.0         py36hfa6e2cd_1000    conda-forge
 setuptools                40.8.0                   py36_0    conda-forge
 shapely                   1.6.4           py36h8921fb9_1003    conda-forge
 sip                       4.19.8          py36h6538335_1000    conda-forge

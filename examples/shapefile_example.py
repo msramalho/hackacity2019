@@ -14,7 +14,7 @@ import random
 
 # open a shapefile, this example contemplates Portugal's shapefile at the 3rd administrative zone level
 # change 3 to 0, 1 or 2 and check the difference in granularity
-shape_file_data = gpd.read_file('examples\\_example_shapefile\\PRT_adm2.shp')
+shape_file_data = gpd.read_file('examples\\_example_shapefile\\PRT_adm1.shp')
 
 # the columns present, typically the most relevant are NAME_* and geometry (where we can get the boundary points)
 pp(shape_file_data.columns)
@@ -31,11 +31,19 @@ x_min, x_max = math.inf, -math.inf
 y_min, y_max = math.inf, -math.inf
 for k in polygons.keys():
     if type(polygons[k]) == MultiPolygon:
-        print("MultiPolygon - join sub polygons")
+        print("MultiPolygon - plot sub polygons")
+        multi_poly = list(polygons[k])
+        for p in multi_poly:
+            lon_poly, lat_poly = p.exterior.coords.xy
+            np_poly = np.array([list(utm.from_latlon(elem[0], elem[1]))[:2] for elem in zip(lat_poly, lon_poly)])
+            pgon = plt.Polygon(np_poly, color=(0, 0, 1), alpha=np.random.uniform(0.2, 0.6), zorder=1)
+            ax.add_patch(pgon)
+            x_min, x_max = min(x_min, np_poly[:, 0].min()), max(x_max, np_poly[:, 0].max())
+            y_min, y_max = min(y_min, np_poly[:, 1].min()), max(y_max, np_poly[:, 1].max())
     else:
         lon_poly, lat_poly = polygons[k].exterior.coords.xy
         np_poly = np.array([list(utm.from_latlon(elem[0], elem[1]))[:2] for elem in zip(lat_poly, lon_poly)])
-        pgon = plt.Polygon(np_poly, color=(0, 0, 1), alpha=np.random.uniform(0.2, 0.6), zorder=1)
+        pgon = plt.Polygon(np_poly, color=(1, 0, 0), alpha=np.random.uniform(0.2, 0.6), zorder=1)
         ax.add_patch(pgon)
         x_min, x_max = min(x_min, np_poly[:, 0].min()), max(x_max, np_poly[:, 0].max())
         y_min, y_max = min(y_min, np_poly[:, 1].min()), max(y_max, np_poly[:, 1].max())
