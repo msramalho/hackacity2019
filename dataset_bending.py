@@ -81,7 +81,7 @@ DEFAULT_REQ_PARAMS = {'where': "1=1", 'returnGeometry': 'true', 'orderByFields':
 
 
 def remove_useless_from_dict(dic):
-    return {k: v for k, v in dic.items() if v and v != " "}
+    return {k: v if (v and v != " ") else None for k, v in dic.items()}
 
 
 def parse_features_geojson(x):
