@@ -135,6 +135,23 @@ def closest_metro(alojamento, paragens):
 
     return minimum
 
-def how_many_close_poi(alojamento, pois, distance):
-    return False
+def how_many_close_poi(alojamento, pois, dist):
+    point = utm.from_latlon(alojamento['lat'], alojamento['lon'])[:2]
+    pois = np.array([list(utm.from_latlon(la, lo)[:2]) for la, lo in zip(pois['lat'], pois['lon'])])
 
+    distancias=[]
+    n = 0
+    for vertex in pois:
+        d = distance.euclidean(point, vertex)
+        if d < dist:
+            n+=1
+    return n
+
+def how_many_close_areas(alojamento, areas, dist):
+    point = utm.from_latlon(alojamento['lat'], alojamento['lon'])[:2]
+    print(areas['lat'])
+
+    par_points = np.array([list(utm.from_latlon(la, lo)[:2]) for la, lo in zip(area['lat'], area['lon'])]])
+    print(par_points.shape)
+
+    print(par_points)
