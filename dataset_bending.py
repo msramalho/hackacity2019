@@ -94,13 +94,17 @@ def parse_features_geojson(x):
 def parse_features_json(x): return remove_useless_from_dict(x["attributes"])
 
 
-def get_dataset_data(dataset_url, req_params={"f":"json"}, f="geojson", fields="*", offset=0):
+def get_dataset_data(dataset_url, req_params={"f":"json"}, f="geojson", fields="*"):
     if "fiware" in dataset_url:
-        print("API for broker not parsed yet")
-        pprint(requests.get(url).json())
+        r = requests.get(url)
+#         pprint(requests.get(url).json()[0])
+        def get_att(x): 
+            x.update({"coordinates": x["location"]["value"]["coordinates"]})
+            return x
+        return map(get_att, requests.get(url).json())
     else:
         # default format could be json, but this gives x, y and not lat, lon
-        params = DEFAULT_REQ_PARAMS; params.update(req_params); params["f"] = f; params["outFields"]=fields; params["resultOffset"] = offset
+        params = DEFAULT_REQ_PARAMS; params.update(req_params); params["f"] = f; params["outFields"]=fields
         data = requests.get(dataset_url + "/query", params=params).json()
         get_attributes = parse_features_geojson if f=="geojson" else parse_features_json
         return map(parse_features_geojson, data["features"])
