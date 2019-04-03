@@ -4,8 +4,9 @@ import json
 import os
 import gmplot
 from statistics import mean
+import pandas as pd
 
-# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, get_dataset_data_full, try_to_display_dataset, display_dataset_polygon, display_dataset_points
+# from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, get_dataset_data_full, try_to_display_dataset, display_dataset_polygon, display_dataset_points, get_dataframe_alojamentos
 
 
 def create_polygons(coordinates, gmap=None, display=False):
@@ -92,14 +93,16 @@ def parse_features_geojson(x):
 
 def parse_features_json(x): return remove_useless_from_dict(x["attributes"])
 
-
-def get_dataset_data(dataset_url, req_params={"f":"json"}, f="geojson", fields="*", offset=0):
+def get_dataset_data(dataset_url, req_params={"f":"json"}, f="geojson", fields="*"):
     if "fiware" in dataset_url:
-        print("API for broker not parsed yet")
-        pprint(requests.get(url).json())
+#         pprint(requests.get(dataset_url).json()[0])
+        def get_att(x): 
+            x.update({"lon": x["location"]["value"]["coordinates"][0], "lat":x["location"]["value"]["coordinates"][1]})
+            return x
+        return map(get_att, requests.get(dataset_url).json())
     else:
         # default format could be json, but this gives x, y and not lat, lon
-        params = DEFAULT_REQ_PARAMS; params.update(req_params); params["f"] = f; params["outFields"]=fields; params["resultOffset"] = offset
+        params = DEFAULT_REQ_PARAMS; params.update(req_params); params["f"] = f; params["outFields"]=fields
         data = requests.get(dataset_url + "/query", params=params).json()
         get_attributes = parse_features_geojson if f=="geojson" else parse_features_json
         return map(parse_features_geojson, data["features"])
@@ -112,3 +115,17 @@ def get_dataset_data_full(dataset_url):
         dataset+=request_dataset
         if not len(request_dataset): break
     return dataset
+
+
+def get_dataframe_alojamentos():
+    url = next(get_dataset_info("alojamento-local"))
+    alojamentos = get_dataset_data_full(url)
+    df = pd.DataFrame(columns=["id", "data_levan", "nome", "ano_registo", "type", "address", "freg", "n_reg", "lat", "lon"])
+    print(alojamentos[0])
+    for i, a in enumerate(alojamentos):
+         df.loc[i] = [a["objectid"], a["data_levan"], a["nome_aloj"],
+                      a["ano_reg"], a["modalidade"],
+                      "%s, %s Porto, Portugal" % (a["morada"], a["cod_postal"]),
+                      a["cod_freg"], a["n_reg"],
+                      a["coordinates"][1], a["coordinates"][0]]
+    return df
