@@ -93,15 +93,13 @@ def parse_features_geojson(x):
 
 def parse_features_json(x): return remove_useless_from_dict(x["attributes"])
 
-
 def get_dataset_data(dataset_url, req_params={"f":"json"}, f="geojson", fields="*"):
     if "fiware" in dataset_url:
-        r = requests.get(url)
-#         pprint(requests.get(url).json()[0])
+#         pprint(requests.get(dataset_url).json()[0])
         def get_att(x): 
-            x.update({"coordinates": x["location"]["value"]["coordinates"]})
+            x.update({"lon": x["location"]["value"]["coordinates"][0], "lat":x["location"]["value"]["coordinates"][1]})
             return x
-        return map(get_att, requests.get(url).json())
+        return map(get_att, requests.get(dataset_url).json())
     else:
         # default format could be json, but this gives x, y and not lat, lon
         params = DEFAULT_REQ_PARAMS; params.update(req_params); params["f"] = f; params["outFields"]=fields
