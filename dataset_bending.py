@@ -4,6 +4,7 @@ import json
 import os
 import gmplot
 from statistics import mean
+import pandas as pd
 
 # from dataset_bending import get_all_datasets, get_dataset_info, get_dataset_data, get_dataset_data_full, try_to_display_dataset, display_dataset_polygon, display_dataset_points, get_dataframe_alojamentos
 
@@ -117,12 +118,12 @@ def get_dataset_data_full(dataset_url):
 def get_dataframe_alojamentos():
     url = next(get_dataset_info("alojamento-local"))
     alojamentos = get_dataset_data_full(url)
-    df = pd.DataFrame(columns=["id", "data_levan", "nome", "ano_registo", "type", "address", "freg", "lat", "lon"])
+    df = pd.DataFrame(columns=["id", "data_levan", "nome", "ano_registo", "type", "address", "freg", "n_reg", "lat", "lon"])
     print(alojamentos[0])
     for i, a in enumerate(alojamentos):
          df.loc[i] = [a["objectid"], a["data_levan"], a["nome_aloj"],
                       a["ano_reg"], a["modalidade"],
                       "%s, %s Porto, Portugal" % (a["morada"], a["cod_postal"]),
-                      a["cod_freg"],
+                      a["cod_freg"], a["n_reg"],
                       a["coordinates"][1], a["coordinates"][0]]
     return df
