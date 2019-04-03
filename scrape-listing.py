@@ -5,6 +5,7 @@ import time
 import json
 import sys
 import selenium
+import copy
 
 SCORE_TYPES = ['staff', 'commodities', 'cleanliness', 'confort', 'price/quality', 'location', 'free-wifi']
 
@@ -13,12 +14,11 @@ def scrape_listing(driver, url, data):
     time.sleep(2)
 
     acco_fields = dict()
-    acco_fields['name'] = driver.find_element_by_class_name('hp__hotel-name').text.strip('Hotel')
-    acco_fields['address'] = driver.find_element_by_class_name('hp_address_subtitle').get_attribute('data-bbox')
+    acco_fields['name'] = driver.find_element_by_class_name('hp__hotel-name').text.lower()
+    acco_fields['address'] = driver.find_element_by_class_name('hp_address_subtitle').text
 
-    acco_fields['score'] = dict()
     if driver.find_elements_by_css_selector('.bui-review-score__badge'):
-        acco_fields['score']['global'] = driver.find_element_by_class_name('bui-review-score__badge').text
+        acco_fields['score_global'] = driver.find_element_by_class_name('bui-review-score__badge').text
 
         driver.find_element_by_class_name('big_review_score_detailed').click()
 
@@ -26,10 +26,15 @@ def scrape_listing(driver, url, data):
             until(lambda drv: len(drv.find_elements_by_css_selector('.v2_review-scores__wrapper')) > 0)
         #if driver.find_elements_by_css_selector('v2_review-scores__wrapper'):
         for index, name in enumerate(driver.find_elements_by_css_selector('.c-score-bar__score')):
-            acco_fields['score'][SCORE_TYPES[index]] = name.get_attribute('innerHTML') 
+            acco_fields['score_' + SCORE_TYPES[index]] = name.get_attribute('innerHTML')
 
-    print(acco_fields)
-    json.dump(acco_fields, open('json_data_%d_%d.json' % (index_start, size), 'a+'))
+    licenses = driver.find_element_by_id("hp_important_info_box").find_element_by_tag_name("strong").text.split(",")
+    for lic in licenses:
+        obj = copy.deepcopy(acco_fields)
+        obj['license'] = lic
+        print(obj)
+        json.dump(obj, open('booking_new/json_data_%d_%d.json' % (index_start, size), 'a+'))
+
 
 if __name__ == '__main__':
 
@@ -47,5 +52,5 @@ if __name__ == '__main__':
             print('Listing :' + str(index))
             scrape_listing(driver, url, data)
         except Exception:
-            json.dump(data, open('json_data_%d_%d_2.json' % (index_start, size), 'a+'))
+            json.dump(data, open('booking_error/json_data_%d_%d_2.json' % (index_start, size), 'a+'))
 
