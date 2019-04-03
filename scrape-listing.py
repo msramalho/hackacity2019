@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 import time
 import json
+import sys
 import selenium
 
 SCORE_TYPES = ['staff', 'commodities', 'cleanliness', 'confort', 'price/quality', 'location', 'free-wifi']
@@ -31,12 +32,17 @@ def scrape_listing(driver, url, data):
     json.dump(acco_fields, open('listing-data.json', 'a'))
 
 if __name__ == '__main__':
-    
+
+    index_start, size = list(map(int, sys.argv[1:]))
+
     data = list()
     urls = json.load(open('json_data.json', 'r'))
 
     driver = webdriver.Firefox()
-    for index,url in enumerate(urls):
+    for index, url in enumerate(urls):
+        if not (index_start <= index <= index_start + size):
+            continue
+
         try:
             print('Listing :' + str(index))
             scrape_listing(driver, url, data)
