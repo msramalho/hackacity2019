@@ -1,48 +1,630 @@
-id,nome,ano_registo,type,n_reg,lat,lon,score
-141,caldeireiros,2016,Apartamento,25307/AL,41.14534927235746,-8.613683434473504,"{'global': 9.0, 'staff': 8.5, 'commodities': 8.8, 'cleanliness': 8.8, 'confort': 9.2, 'price/quality': 8.9, 'location': 9.9}"
-241,hospedaria do bonfim,2013,Estabelecimento de hospedagem,5644/AL,41.15002389685078,-8.595374743326188,"{'global': 6.6, 'staff': 7.4, 'commodities': 5.8, 'cleanliness': 6.7, 'confort': 5.5, 'price/quality': 6.7, 'location': 7.4, 'free-wifi': 7.5}"
-457,alegria rooms,2016,Estabelecimento de hospedagem,31660/AL,41.146709434970234,-8.603717455211846,"{'global': 8.2, 'staff': 8.8, 'commodities': 7.6, 'cleanliness': 8.2, 'confort': 7.4, 'price/quality': 8.2, 'location': 8.8, 'free-wifi': 8.9}"
-495,casa paraíso,2016,Apartamento,32765/AL,41.15755006755081,-8.608751417116348,"{'global': 9.5, 'staff': 10.0, 'commodities': 9.5, 'cleanliness': 9.6, 'confort': 9.3, 'price/quality': 9.5, 'location': 9.2, 'free-wifi': 10.0}"
-582,o santo da lapa,2016,Moradia,31616/AL,41.15894443493549,-8.613953076587471,"{'global': 8.4, 'staff': 9.1, 'commodities': 8.0, 'cleanliness': 9.0, 'confort': 8.0, 'price/quality': 8.3, 'location': 7.9, 'free-wifi': 9.7}"
-622,home mcm,2016,Apartamento,37099/AL,41.15140096374676,-8.590309488595915,"{'global': 9.2, 'staff': 9.6, 'commodities': 9.1, 'cleanliness': 9.4, 'confort': 9.0, 'price/quality': 9.3, 'location': 8.6, 'free-wifi': 8.9}"
-1770,santa catarina apartments,2016,Apartamento,34309/AL,41.15287348250917,-8.604939923937865,"{'global': 7.5, 'staff': 7.9, 'commodities': 6.4, 'cleanliness': 8.2, 'confort': 7.5, 'price/quality': 7.1, 'location': 7.9}"
-2248,santa catarina apartments,2017,Apartamento,49359/AL,41.1549676072401,-8.604482036834021,"{'global': 7.5, 'staff': 7.9, 'commodities': 6.4, 'cleanliness': 8.2, 'confort': 7.5, 'price/quality': 7.1, 'location': 7.9}"
-2473,a nossa casa,2017,Apartamento,57192/AL,41.1713346948161,-8.657674925605807,"{'global': 9.4, 'staff': 9.7, 'commodities': 9.6, 'cleanliness': 9.8, 'confort': 9.4, 'price/quality': 9.2, 'location': 8.4, 'free-wifi': 10.0}"
-2639,db 24 agosto i,2017,Apartamento,48889/AL,41.147364753125096,-8.600057610131804,"{'global': 9.5, 'staff': 9.3, 'commodities': 9.5, 'cleanliness': 9.8, 'confort': 9.5, 'price/quality': 9.6, 'location': 9.2, 'free-wifi': 10.0}"
-2751,cn oporto apartments,2017,Apartamento,49676/AL,41.14783710071561,-8.601393268731114,"{'global': 7.6, 'staff': 8.0, 'commodities': 7.1, 'cleanliness': 7.4, 'confort': 7.0, 'price/quality': 7.6, 'location': 8.2, 'free-wifi': 8.4}"
-2752,cn oporto apartments,2017,Apartamento,49832/AL,41.14784786714726,-8.601381999449544,"{'global': 7.6, 'staff': 8.0, 'commodities': 7.1, 'cleanliness': 7.4, 'confort': 7.0, 'price/quality': 7.6, 'location': 8.2, 'free-wifi': 8.4}"
-2937,lapa apartments,2017,Apartamento,54806/AL,41.15892571291122,-8.61090457150504,"{'global': 9.0, 'staff': 9.0, 'commodities': 8.9, 'cleanliness': 9.6, 'confort': 9.0, 'price/quality': 9.0, 'location': 8.3, 'free-wifi': 9.5}"
-2938,lapa apartments,2017,Apartamento,50155/AL,41.15891823560371,-8.61086483379661,"{'global': 9.0, 'staff': 9.0, 'commodities': 8.9, 'cleanliness': 9.6, 'confort': 9.0, 'price/quality': 9.0, 'location': 8.3, 'free-wifi': 9.5}"
-3305,porto island,2017,Moradia,44547/AL,41.15929125059379,-8.643730783816533,"{'global': 9.3, 'staff': 9.7, 'commodities': 9.2, 'cleanliness': 9.7, 'confort': 9.1, 'price/quality': 9.4, 'location': 8.8, 'free-wifi': 8.9}"
-3306,porto island,2017,Moradia,44557/AL,41.159257525851984,-8.64374746665926,"{'global': 9.3, 'staff': 9.7, 'commodities': 9.2, 'cleanliness': 9.7, 'confort': 9.1, 'price/quality': 9.4, 'location': 8.8, 'free-wifi': 8.9}"
-3307,porto island,2017,Moradia,44560/AL,41.159276159094695,-8.643735946645906,"{'global': 9.3, 'staff': 9.7, 'commodities': 9.2, 'cleanliness': 9.7, 'confort': 9.1, 'price/quality': 9.4, 'location': 8.8, 'free-wifi': 8.9}"
-3310,flower's downtown,2017,Apartamento,61266/AL,41.14544333114143,-8.620249426448463,"{'global': 9.3, 'staff': 9.8, 'commodities': 8.9, 'cleanliness': 9.6, 'confort': 9.1, 'price/quality': 9.3, 'location': 9.3, 'free-wifi': 10.0}"
-3571,invicta downtown,2017,Apartamento,58152/AL,41.15373518992183,-8.609589123010073,"{'global': 9.3, 'staff': 9.4, 'commodities': 9.1, 'cleanliness': 9.7, 'confort': 9.7, 'price/quality': 8.8, 'location': 9.2, 'free-wifi': 10.0}"
-3718,casa da fontinha,2017,Moradia,50841/AL,41.15570713957271,-8.605679609589496,"{'global': 7.3, 'staff': 8.4, 'commodities': 6.7, 'cleanliness': 7.4, 'confort': 6.9, 'price/quality': 7.2, 'location': 7.2, 'free-wifi': 10.0}"
-5748,casa da fontinha,2018,Moradia,76256/AL,41.1557189350393,-8.60570806398617,"{'global': 7.3, 'staff': 8.4, 'commodities': 6.7, 'cleanliness': 7.4, 'confort': 6.9, 'price/quality': 7.2, 'location': 7.2, 'free-wifi': 10.0}"
-3826,casa das musas,2017,Apartamento,38676/AL,41.1559083123816,-8.60967656077595,"{'global': 9.5, 'staff': 9.9, 'commodities': 9.6, 'cleanliness': 9.7, 'confort': 9.5, 'price/quality': 9.5, 'location': 8.9, 'free-wifi': 10.0}"
-3912,casa da baixa,2017,Apartamento,55668/AL,41.14779892597351,-8.613863041344498,"{'global': 8.4, 'staff': 8.4, 'commodities': 8.0, 'cleanliness': 8.1, 'confort': 7.9, 'price/quality': 8.5, 'location': 9.2, 'free-wifi': 7.5}"
-4271,casa da baixa,2017,Apartamento,55956/AL,41.14578236430152,-8.60479602076399,"{'global': 8.4, 'staff': 8.4, 'commodities': 8.0, 'cleanliness': 8.1, 'confort': 7.9, 'price/quality': 8.5, 'location': 9.2, 'free-wifi': 7.5}"
-3999,oporto central apartments,2017,Apartamento,43211/AL,41.14331570663156,-8.617706434283479,"{'global': 7.5, 'staff': 8.2, 'commodities': 6.7, 'cleanliness': 7.2, 'confort': 6.6, 'price/quality': 7.6, 'location': 8.9, 'free-wifi': 8.9}"
-4000,oporto central apartments,2017,Apartamento,43213/AL,41.14330359727622,-8.617685417962667,"{'global': 7.5, 'staff': 8.2, 'commodities': 6.7, 'cleanliness': 7.2, 'confort': 6.6, 'price/quality': 7.6, 'location': 8.9, 'free-wifi': 8.9}"
-4002,oporto central apartments,2017,Apartamento,43205/AL,41.143297441314374,-8.617849778012108,"{'global': 7.5, 'staff': 8.2, 'commodities': 6.7, 'cleanliness': 7.2, 'confort': 6.6, 'price/quality': 7.6, 'location': 8.9, 'free-wifi': 8.9}"
-4003,oporto central apartments,2017,Apartamento,43207/AL,41.143290129491106,-8.617854767140608,"{'global': 7.5, 'staff': 8.2, 'commodities': 6.7, 'cleanliness': 7.2, 'confort': 6.6, 'price/quality': 7.6, 'location': 8.9, 'free-wifi': 8.9}"
-4008,casa bonjardim,2017,Apartamento,38370/AL,41.15418689031663,-8.607840858140301,"{'global': 7.8, 'staff': 8.5, 'commodities': 7.3, 'cleanliness': 8.3, 'confort': 7.6, 'price/quality': 7.8, 'location': 7.4, 'free-wifi': 9.0}"
-5772,casa bonjardim,2018,Apartamento,64004/AL,41.15616541302551,-8.607579137273902,"{'global': 7.8, 'staff': 8.5, 'commodities': 7.3, 'cleanliness': 8.3, 'confort': 7.6, 'price/quality': 7.8, 'location': 7.4, 'free-wifi': 9.0}"
-5773,casa bonjardim,2018,Apartamento,64006/AL,41.15616494147545,-8.607520029895877,"{'global': 7.8, 'staff': 8.5, 'commodities': 7.3, 'cleanliness': 8.3, 'confort': 7.6, 'price/quality': 7.8, 'location': 7.4, 'free-wifi': 9.0}"
-4888,invicta house marquês,2018,Apartamento,63161/AL,41.15787934019917,-8.602434157479736,"{'global': 8.5, 'staff': 8.4, 'commodities': 8.3, 'cleanliness': 8.8, 'confort': 8.6, 'price/quality': 8.5, 'location': 8.0, 'free-wifi': 9.5}"
-4895,a casa das 3 marias,2018,Moradia,64698/AL,41.142212802986656,-8.596843974252861,"{'global': 8.6, 'staff': 9.5, 'commodities': 8.3, 'cleanliness': 9.1, 'confort': 8.1, 'price/quality': 8.4, 'location': 8.1}"
-5060,oporto forever d joão iv,2018,Apartamento,69704/AL,41.154034683662935,-8.60236065284098,"{'global': 8.5, 'staff': 8.5, 'commodities': 8.8, 'cleanliness': 8.5, 'confort': 8.5, 'price/quality': 8.9, 'location': 7.8, 'free-wifi': 8.8}"
-5377,invicta house boavista,2018,Apartamento,62131/AL,41.15873851205431,-8.626969119906864,"{'global': 8.5, 'staff': 8.5, 'commodities': 8.2, 'cleanliness': 8.8, 'confort': 8.4, 'price/quality': 8.4, 'location': 8.6, 'free-wifi': 8.9}"
-5595,invicta house arca d'agua,2018,Apartamento,65160/AL,41.1693059466362,-8.611645524830054,"{'global': 8.6, 'staff': 8.7, 'commodities': 8.5, 'cleanliness': 8.6, 'confort': 8.9, 'price/quality': 8.9, 'location': 8.1, 'free-wifi': 9.1}"
-5655,porto com alma,2018,Apartamento,70369/AL,41.149480665916606,-8.603561986082392,"{'global': 8.7, 'staff': 9.1, 'commodities': 8.2, 'cleanliness': 8.9, 'confort': 8.4, 'price/quality': 8.2, 'location': 9.7, 'free-wifi': 10.0}"
-5862,the time downtown apartments,2018,Apartamento,66088/AL,41.15005412350557,-8.607506510956762,"{'global': 8.6, 'staff': 8.4, 'commodities': 8.4, 'cleanliness': 9.2, 'confort': 8.1, 'price/quality': 8.3, 'location': 9.3}"
-5863,the time downtown apartments,2018,Apartamento,66090/AL,41.15007848595914,-8.607491557275582,"{'global': 8.6, 'staff': 8.4, 'commodities': 8.4, 'cleanliness': 9.2, 'confort': 8.1, 'price/quality': 8.3, 'location': 9.3}"
-6034,red wings trindade apartments,2018,Apartamento,64264/AL,41.15474493920026,-8.609129339331938,"{'global': 8.3, 'staff': 8.5, 'commodities': 8.2, 'cleanliness': 8.8, 'confort': 8.2, 'price/quality': 7.7, 'location': 8.3, 'free-wifi': 10.0}"
-6137,looking river sé 7,2018,Apartamento,70089/AL,41.142546462119135,-8.612685644351702,"{'global': 9.2, 'staff': 9.3, 'commodities': 8.9, 'cleanliness': 9.3, 'confort': 9.3, 'price/quality': 8.9, 'location': 9.6}"
-6272,ruby charm houses 6,2018,Moradia,63367/AL,41.15936279186623,-8.60728008877819,"{'global': 9.3, 'staff': 9.8, 'commodities': 9.7, 'cleanliness': 9.7, 'confort': 9.2, 'price/quality': 9.0, 'location': 8.5}"
-6365,1905 apartments,2018,Apartamento,65364/AL,41.14770744604098,-8.614334100215743,"{'global': 7.8, 'staff': 7.3, 'commodities': 7.6, 'cleanliness': 8.1, 'confort': 7.6, 'price/quality': 7.7, 'location': 8.7, 'free-wifi': 7.8}"
-6366,1905 apartments,2018,Apartamento,65368/AL,41.14770181483209,-8.614313258174223,"{'global': 7.8, 'staff': 7.3, 'commodities': 7.6, 'cleanliness': 8.1, 'confort': 7.6, 'price/quality': 7.7, 'location': 8.7, 'free-wifi': 7.8}"
-6367,1905 apartments,2018,Apartamento,78240/AL,41.14768332878864,-8.614259429247769,"{'global': 7.8, 'staff': 7.3, 'commodities': 7.6, 'cleanliness': 8.1, 'confort': 7.6, 'price/quality': 7.7, 'location': 8.7, 'free-wifi': 7.8}"
-6368,1905 apartments,2018,Apartamento,78279/AL,41.1476774288169,-8.614245990933936,"{'global': 7.8, 'staff': 7.3, 'commodities': 7.6, 'cleanliness': 8.1, 'confort': 7.6, 'price/quality': 7.7, 'location': 8.7, 'free-wifi': 7.8}"
-6653,ana d'ouro apartment ii,2018,Apartamento,80366/AL,41.15005693563591,-8.6063537133112,"{'global': 9.6, 'staff': 9.8, 'commodities': 9.2, 'cleanliness': 9.8, 'confort': 9.4, 'price/quality': 9.5, 'location': 10.0, 'free-wifi': 10.0}"
+id,nome,ano_registo,type,n_reg,lat,lon,score_global,score_location,score_price/quality
+3,camões apartment,2016,Apartamento,28842/AL,41.155396693414026,-8.61022104378503,9.4,9.1,9.6
+36,alojamento ferreira borges,2016,Apartamento,35755/AL,41.14230104484792,-8.615037910049379,7.9,9.6,7.3
+47,brigitte aurran,2013,Moradia,5406/AL,41.152016965454344,-8.61223522386419,,,
+63,my home in porto ii,2016,Apartamento,37939/AL,41.16290227613205,-8.62333576585072,9.2,8.3,9.0
+78,residencial d.duarte i,2011,Estabelecimento de hospedagem,12275/AL,41.145785727943434,-8.597590412703623,7.4,8.0,7.7
+84,"delfim silva & duarte, lda",2010,Estabelecimento de hospedagem,6939/AL,41.15512339789347,-8.603039114464323,8.3,7.9,8.4
+98,santo ildefonso,2015,Apartamento,20719/AL,41.14609456784561,-8.60535564734016,7.8,8.9,8.3
+109,carla calçada,2015,Apartamento,16680/AL,41.14316764363747,-8.602869504308577,7.0,8.2,6.5
+110,residencial porto novo,2012,Estabelecimento de hospedagem,7052/AL,41.143564560284695,-8.60410453674267,6.9,8.1,7.0
+111,residencial dom filipe i,2010,Estabelecimento de hospedagem,5905/AL,41.144560425911266,-8.60601372589697,7.5,8.7,7.4
+113,casa 45,2015,Estabelecimento de hospedagem,9580/AL,41.15036366352577,-8.613594148668092,-1.0,9.6,9.3
+123,best guest hostel,2015,Estabelecimento de hospedagem-Hostel,20147/AL,41.14444291212801,-8.612116353841166,9.0,9.7,8.8
+131,nuno,2016,Apartamento,23111/AL,41.15319774240369,-8.607864064190517,8.8,8.9,8.8
+139,miss opo,2016,Estabelecimento de hospedagem,31192/AL,41.14554213704995,-8.613150237855125,8.5,9.5,8.1
+146,bc hostel & suites,2016,Estabelecimento de hospedagem,31936/AL,41.16247328779719,-8.618822988782993,8.5,7.4,8.5
+160,casa dos loios,2014,Estabelecimento de hospedagem,6630/AL,41.14505895111866,-8.612206080106352,-1.0,9.8,8.7
+178,down bonjardim apartments,2016,Apartamento,37069/AL,41.15037675512365,-8.609289171400631,8.8,9.5,8.8
+182,cardosas stylish apartment,2015,Apartamento,21986/AL,41.14570433177258,-8.611080004371368,9.0,9.8,8.8
+185,pensão duas nações,2010,Estabelecimento de hospedagem,6207/AL,41.147835703019766,-8.615040412650593,7.5,9.2,7.5
+187,pensão frança,2010,Estabelecimento de hospedagem,5641/AL,41.147467462975825,-8.615758413613964,-1.0,9.1,7.3
+241,hospedaria do bonfim,2013,Estabelecimento de hospedagem,5644/AL,41.15002389685078,-8.595374743326188,6.6,7.4,6.7
+246,in porto gallery guesthouse,2015,Estabelecimento de hospedagem,10140/AL,41.14937833703555,-8.609331556915246,-1.0,9.6,9.1
+266,design apartment porto down town,2016,Apartamento,34771/AL,41.14609611918391,-8.597971005400751,9.3,9.1,9.2
+276,andarilho,2009,Estabelecimento de hospedagem-Hostel,4541/AL,41.15085205746136,-8.604691635172056,8.3,8.8,7.7
+277,charming,2015,Apartamento,20239/AL,41.14277743358412,-8.600011530590201,7.2,8.0,7.5
+279,pensão residencial veneza,2015,Estabelecimento de hospedagem,20565/AL,41.14715994801008,-8.589776375612523,8.0,8.2,8.0
+307,monte carlo love porto guest house,2016,Estabelecimento de hospedagem,28408/AL,41.150750289916296,-8.597662439982486,7.9,7.9,7.9
+334,cardosas apartement,2016,Apartamento,24515/AL,41.14547557998025,-8.611917273529576,9.9,10.0,9.7
+343,rivoli cinema hostel,2014,Estabelecimento de hospedagem-Hostel,6524/AL,41.14753037490612,-8.609796995024718,9.1,9.7,9.0
+347,josé faustino ferreira rodrigues,2014,Estabelecimento de hospedagem,9121/AL,41.15898321758461,-8.608650958391916,7.3,7.7,7.2
+350,porto república hostel & suites,2016,Estabelecimento de hospedagem-Hostel,23441/AL,41.15348211260044,-8.613026239799233,-1.0,8.7,8.5
+352,casa s. salvador,2016,Apartamento,34019/AL,41.142062608840945,-8.614193116681578,8.4,9.7,8.5
+364,ap - almeida e cruz,2016,Apartamento,25840/AL,41.177618549831536,-8.5832667411691,9.5,7.9,9.6
+388,loulé estudios,2013,Estabelecimento de hospedagem,5061/AL,41.14485753267482,-8.60478266841029,8.9,9.1,9.0
+389,"madureia e rocha, lda",2015,Estabelecimento de hospedagem,11559/AL,41.14434125484011,-8.604561986109251,6.7,8.1,6.8
+417,quiet studio porto down town,2016,Apartamento,24338/AL,41.152778240183096,-8.603555529020843,,,
+419,home in porto,2016,Apartamento,35668/AL,41.1505528793204,-8.612243881908496,8.9,9.7,8.3
+420,cozy loft in downtown,2016,Apartamento,32481/AL,41.15133771874228,-8.612201393446117,9.4,9.8,9.4
+435,pilot hostel,2012,Estabelecimento de hospedagem-Hostel,6312/AL,41.15012781500974,-8.614927735509792,8.8,9.3,8.8
+446,flores apart,2015,Apartamento,13293/AL,41.14428370891407,-8.613244035276532,9.0,9.7,8.7
+450,b the guest,2014,Moradia,6500/AL,41.14849460680558,-8.607470736419446,-1.0,9.6,8.9
+451,stayin oporto apartments,2015,Estabelecimento de hospedagem,21224/AL,41.14909494350122,-8.608542332346557,7.6,9.2,7.8
+457,alegria rooms,2016,Estabelecimento de hospedagem,31660/AL,41.146709434970234,-8.603717455211846,8.2,8.8,8.2
+461,"allegra, 508",2016,Moradia,27752/AL,41.15432456470437,-8.602944383439887,-1.0,8.1,8.5
+464,happy apartment porto,2016,Apartamento,23906/AL,41.15819421793357,-8.601391647099154,8.1,8.0,8.4
+495,casa paraíso,2016,Apartamento,32765/AL,41.15755006755081,-8.608751417116348,9.5,9.2,9.5
+507,deco gem aliados,2016,Apartamento,38124/AL,41.14892178609274,-8.60987265980268,9.8,9.9,9.7
+512,prédio sá da bandeira,2016,Moradia,23576/AL,41.14710673218197,-8.609029371672557,-1.0,9.3,7.9
+513,bouganvillea oporto flat,2016,Apartamento,30910/AL,41.149675818837025,-8.607629881655347,9.2,9.8,8.7
+515,nice way porto,2016,Estabelecimento de hospedagem-Hostel,29876/AL,41.14668279973992,-8.610445987146067,-1.0,9.6,8.6
+518,apartamento de josé marques,2016,Apartamento,37560/AL,41.149601568381144,-8.58967061817666,8.9,8.7,9.2
+530,oporto city flats - casa da picaria,2016,Moradia,35861/AL,41.149634724073,-8.612817605639492,-1.0,9.4,9.2
+531,lb twin apartment porto,2016,Apartamento,38244/AL,41.149682990136895,-8.61280323976337,7.2,8.8,6.6
+549,j. f. flat porto downtown,2015,Apartamento,10994/AL,41.14887319259686,-8.614446711037367,,,
+555,almada domus,2016,Estabelecimento de hospedagem,37584/AL,41.15163444121014,-8.612228923261517,9.2,9.1,8.7
+574,"pinto miranda & miranda, lda",2011,Apartamento,7316/AL,41.15895275839753,-8.633983001742912,6.9,7.5,6.6
+582,o santo da lapa,2016,Moradia,31616/AL,41.15894443493549,-8.613953076587471,8.4,7.9,8.3
+587,oporto old in new,2016,Apartamento,37992/AL,41.150621757858225,-8.609010156549317,10.0,9.9,10.0
+622,home mcm,2016,Apartamento,37099/AL,41.15140096374676,-8.590309488595915,9.2,8.6,9.3
+626,cardosas boutique apartement,2016,Apartamento,28357/AL,41.145180120647375,-8.611787568050907,9.4,9.8,9.0
+642,casa das almas,2016,Moradia,24133/AL,41.15066123336701,-8.60501982303628,8.4,9.2,8.8
+646,porto trv.cedofeita´s place,2016,Apartamento,37068/AL,41.14964064415463,-8.61577674466165,9.4,9.4,9.2
+663,d&s - s. bento apartments ii,2016,Apartamento,33126/AL,41.144680575983514,-8.609385002243167,8.7,9.5,8.3
+678,t3-habitação,2016,Apartamento,33419/AL,41.156988649614355,-8.617768964693264,7.2,7.9,7.1
+802,inside porto apartments,2015,Apartamento,22531/AL,41.14382979419965,-8.613986042652668,,,
+807,cordoaria garden cozy apartment,2015,Apartamento,14757/AL,41.14413614623928,-8.617014111310842,7.5,9.2,7.3
+812,virtudes apartment 1,2016,Apartamento,35599/AL,41.14329864022559,-8.617825578550713,,,
+813,virtudes apartment 2,2016,Apartamento,35603/AL,41.14330787249002,-8.61784493701885,,,
+1017,antónio maria pena de castro,2014,Apartamento,16970/AL,41.14749646563509,-8.612837147622418,9.8,10.0,9.7
+1021,clérigos ville porto rooms,2015,Apartamento,9862/AL,41.14614884738615,-8.613498121300184,-1.0,9.5,8.9
+1053,chateau apartments,2015,Apartamento,11092/AL,41.14697304488505,-8.61236585613281,8.9,9.6,8.7
+1054,chateau apartments,2015,Apartamento,11093/AL,41.14698794046447,-8.612363303858709,8.9,9.6,8.7
+1055,chateau apartments,2015,Apartamento,11094/AL,41.14698020996871,-8.612388831681244,8.9,9.6,8.7
+1056,chateau apartments,2015,Apartamento,11095/AL,41.14697493605598,-8.612328914579873,8.9,9.6,8.7
+1057,chateau apartments,2015,Apartamento,11096/AL,41.14698749235831,-8.612316435723757,8.9,9.6,8.7
+1080,"mh turismo - unipessoal, lda",2014,Apartamento,5987/AL,41.14686786238871,-8.62060567700018,8.6,8.9,8.7
+1082,"mh turismo - unipessoal, lda",2014,Apartamento,6042/AL,41.14685296666756,-8.620564125008636,8.6,8.9,8.7
+1083,"mh turismo - unipessoal, lda",2014,Apartamento,6047/AL,41.146845975786285,-8.62060228505328,8.6,8.9,8.7
+1084,"mh turismo - unipessoal, lda",2014,Apartamento,6049/AL,41.14685260305359,-8.620635321764633,8.6,8.9,8.7
+1085,"mh turismo - unipessoal, lda",2014,Apartamento,6054/AL,41.146879341172756,-8.620523370445701,8.6,8.9,8.7
+1086,"mh turismo - unipessoal, lda",2014,Apartamento,6055/AL,41.1468718990025,-8.620569844006555,8.6,8.9,8.7
+1114,caldeireiros apartment,2016,Apartamento,28821/AL,41.14479265808265,-8.612362335011767,9.0,9.9,8.9
+1143,flat 59,2015,Apartamento,6472/AL,41.14508340725073,-8.61261907761822,6.9,8.3,6.7
+1182,lóios 2.2,2015,Moradia,7428/AL,41.14564421795992,-8.612117301198941,9.4,9.8,9.2
+1184,cardosas living lóios,2015,Apartamento,19424/AL,41.14550749605215,-8.611957945194881,9.0,9.7,8.7
+1185,porto lux view,2015,Apartamento,19427/AL,41.14553517847595,-8.611947428025882,9.0,9.7,8.7
+1188,lóios ao cubo,2015,Apartamento,19429/AL,41.145540960093854,-8.611921530325086,9.0,9.7,8.7
+1199,cardosas cosy apartment,2015,Apartamento,14991/AL,41.14538820751759,-8.611243511208366,9.2,9.6,8.7
+1200,esquina do mundo,2016,Apartamento,25741/AL,41.14539948809135,-8.611237231459858,9.1,9.6,8.5
+1210,porto with history,2015,Apartamento,10957/AL,41.145050941753105,-8.61174424181103,9.8,10.0,9.5
+1211,cardosas charming apartment,2015,Apartamento,8523/AL,41.14506879841404,-8.611769641209465,9.7,9.8,9.5
+1212,ricardo guimarães,2015,Apartamento,16830/AL,41.14504263092186,-8.61176235695286,9.7,9.9,9.5
+1213,toctoc yellow,2016,Apartamento,30099/AL,41.145008864602204,-8.611722716809533,,,
+1214,são bento luxury building,2016,Apartamento,37164/AL,41.14487383982351,-8.611492406906482,8.9,9.6,8.6
+1215,são bento luxury building,2016,Apartamento,37166/AL,41.14488480029963,-8.611518210891376,8.9,9.6,8.6
+1216,são bento luxury building,2016,Apartamento,37159/AL,41.14486705311908,-8.611517946856077,8.9,9.6,8.6
+1223,0,2016,Apartamento,28719/AL,41.14471822417895,-8.611264993568236,9.0,9.7,8.5
+1234,opo trinta e um,2016,Apartamento,32297/AL,41.14463948940136,-8.6113660606233,9.2,9.7,8.9
+1249,d & s - porto s. bento apartments,2015,Apartamento,19881/AL,41.14455621953121,-8.609437171950622,8.7,9.5,8.4
+1251,12 short term hotel,2012,Estabelecimento de hospedagem,14950/AL,41.14433325503334,-8.605055182182237,8.8,9.0,8.9
+1258,casas do rivoli,2015,Apartamento,18868/AL,41.14811285141797,-8.609581933537472,9.3,9.7,8.8
+1259,casas do rivoli,2015,Apartamento,18871/AL,41.1481196472491,-8.609672966993127,9.3,9.7,8.8
+1260,casas do rivoli,2015,Apartamento,18873/AL,41.14817151334867,-8.609694475896472,9.3,9.7,8.8
+1261,casas do rivoli,2015,Apartamento,18872/AL,41.1481160233251,-8.609605217196014,9.3,9.7,8.8
+1262,casas do rivoli,2015,Apartamento,18879/AL,41.14813975628927,-8.609591003459474,9.3,9.7,8.8
+1263,casas do rivoli,2015,Apartamento,18880/AL,41.14814726193768,-8.609638801414686,9.3,9.7,8.8
+1264,casas do rivoli,2015,Apartamento,18884/AL,41.14815853790988,-8.609686095567442,9.3,9.7,8.8
+1265,casas do rivoli,2015,Apartamento,18830/AL,41.148114255361655,-8.60952200599177,9.3,9.7,8.8
+1266,casas do rivoli,2015,Apartamento,18836/AL,41.14813025174103,-8.609660559031479,9.3,9.7,8.8
+1270,hospedaria 31 de janeiro,2010,Estabelecimento de hospedagem,5854/AL,41.14629309205574,-8.607814855731803,7.5,9.0,7.5
+1272,abbey apartments,2016,Apartamento,35158/AL,41.14807244722437,-8.607961417160109,9.6,9.8,9.4
+1281,oportonow iii,2016,Apartamento,28164/AL,41.14824831272661,-8.607660056471929,9.1,9.5,9.1
+1282,oportonow ii,2016,Apartamento,28161/AL,41.14828892284549,-8.607672242124181,9.1,9.5,9.1
+1283,oportonow iv,2016,Apartamento,28165/AL,41.148281516737136,-8.607645911726777,9.1,9.5,9.1
+1284,oportonow i,2016,Apartamento,28158/AL,41.14825681018029,-8.607690299525707,9.1,9.5,9.1
+1294,porto cinema apartments,2016,Apartamento,28256/AL,41.146255886522624,-8.606967418580037,9.4,9.7,9.3
+1302,santa catarina's loft,2015,Apartamento,15070/AL,41.14655435133378,-8.606786766548906,8.6,9.5,7.8
+1303,estudio ruvina,2015,Apartamento,17789/AL,41.14775437422781,-8.604888667718347,9.6,9.8,9.4
+1306,formosa loft,2016,Apartamento,27395/AL,41.14780950023859,-8.604901550404838,9.4,10.0,9.0
+1311,formosa,2016,Apartamento,32858/AL,41.147926628623736,-8.605308422853714,9.5,9.6,9.3
+1526,"mh turismo - unipessoal, lda",2014,Apartamento,5518/AL,41.14895963248656,-8.616185360095034,8.3,9.2,8.3
+1527,"mh turismo - unipessoal, lda",2014,Apartamento,5516/AL,41.14893809633777,-8.616196865925703,8.3,9.2,8.3
+1528,"mh turismo - unipessoal, lda",2014,Apartamento,5323/AL,41.14894043341233,-8.616178356064713,8.3,9.2,8.3
+1586,"dom joão iv, apartment",2015,Apartamento,19744/AL,41.14880273735629,-8.601933549932358,9.4,9.1,9.3
+1588,hello porto skylight,2016,Apartamento,29963/AL,41.149073558953596,-8.601772386603265,,,
+1611,picaria 14,2016,Apartamento,38207/AL,41.14875266182916,-8.612892404843592,9.6,9.9,9.4
+1613,almada azul,2016,Apartamento,37699/AL,41.14891115992366,-8.612250779996943,9.7,9.8,9.6
+1615,almada 329 apartment,2015,Apartamento,19111/AL,41.14972297620799,-8.61227322489085,9.3,9.6,9.1
+1617,by almada 346,2016,Apartamento,23732/AL,41.14960252622332,-8.611961335154744,9.4,9.7,9.1
+1618,by almada 346,2016,Apartamento,23710/AL,41.149591012872406,-8.611965560976753,9.4,9.7,9.1
+1619,by almada 346,2016,Apartamento,23712/AL,41.14957877265962,-8.611888909839564,9.4,9.7,9.1
+1620,by almada 346,2016,Apartamento,23733/AL,41.14960135736983,-8.61192294625562,9.4,9.7,9.1
+1621,by almada 346,2016,Apartamento,23699/AL,41.14958846906642,-8.611912497959661,9.4,9.7,9.1
+1623,by almada - lofts & studios,2015,Apartamento,8661/AL,41.149535827381015,-8.611993896541511,9.4,9.7,9.1
+1631,oporto view apartments 1º fr,2016,Apartamento,36341/AL,41.14936466734993,-8.612023710482422,9.0,9.6,8.7
+1639,almada apartamentos,2015,Apartamento,20524/AL,41.15129029572949,-8.611894475125322,9.1,9.4,8.9
+1641,alma-da-casa,2016,Apartamento,26557/AL,41.15151654876747,-8.611926447093227,9.7,9.6,9.6
+1647,trindade 21,2016,Apartamento,34774/AL,41.15211670734754,-8.610304848370786,8.3,9.1,7.8
+1650,oportonow,2016,Apartamento,37776/AL,41.150491024556544,-8.609747365840105,9.3,9.6,9.1
+1659,andorinha apartment,2016,Apartamento,30178/AL,41.15110088016559,-8.611918990288109,9.2,9.5,9.1
+1660,the almada flats,2016,Apartamento,29495/AL,41.15111616536219,-8.611944983226138,8.8,9.3,8.5
+1661,the almada flats,2016,Apartamento,29490/AL,41.15109217702109,-8.611938758856235,8.8,9.3,8.5
+1662,almada garden apartment,2016,Apartamento,30453/AL,41.151084426000196,-8.611958436687786,8.4,9.0,8.0
+1663,the almada flats,2016,Apartamento,29498/AL,41.151111556136414,-8.61189037313489,8.8,9.3,8.5
+1664,the almada flats,2016,Apartamento,29503/AL,41.151105537152006,-8.611968409205671,8.8,9.3,8.5
+1666,loft oporto,2016,Apartamento,35466/AL,41.15030389739173,-8.609374448751561,10.0,10.0,10.0
+1667,oporto sun - trindade,2016,Apartamento,35900/AL,41.150310270444116,-8.60940660735281,9.7,9.5,9.6
+1668,tzerobonjardim,2016,Apartamento,36588/AL,41.15033103701049,-8.60937837443515,9.1,9.2,9.0
+1678,c&c - cheap and cousy apartments porto,2016,Apartamento,36533/AL,41.1507232798835,-8.60782073349073,8.8,9.7,8.4
+1687,carluisa´s apartment,2015,Apartamento,20638/AL,41.1503665569337,-8.604030212874303,,,
+1695,porto old town,2016,Apartamento,28964/AL,41.150367900715864,-8.608968557819217,9.3,9.4,9.0
+1708,by sá da bandeira,2015,Apartamento,12200/AL,41.14962434332687,-8.607669316529659,9.1,9.4,8.6
+1710,by sá da bandeira,2015,Apartamento,12922/AL,41.149598556730744,-8.607742774122496,9.4,9.7,9.1
+1712,afonso fernandes & pereira fernandes - imobiliária lda,2014,Apartamento,5982/AL,41.149610103178595,-8.607689339310797,9.4,9.7,9.1
+1715,porto bolhão i apartment,2014,Apartamento,5985/AL,41.14957333643153,-8.607753736734058,9.4,9.7,9.1
+1721,portosoul formosa,2016,Apartamento,30026/AL,41.14902696107748,-8.609030944580015,9.3,9.6,9.2
+1727,feelporto downtown art tile,2016,Apartamento,26942/AL,41.1501343122643,-8.60685398104861,9.1,9.3,8.7
+1770,santa catarina apartments,2016,Apartamento,34309/AL,41.15287348250917,-8.604939923937865,7.5,7.9,7.1
+1780,stayin oporto música guest apartment - bolhão,2016,Apartamento,23833/AL,41.15147115165154,-8.607056493509772,8.3,9.0,8.3
+1784,feel porto doc townhouse,2016,Apartamento,26378/AL,41.15213506735979,-8.606622405911768,9.4,9.2,9.1
+1785,feel porto ruby townhouse,2016,Apartamento,25995/AL,41.15215089432398,-8.606680856963505,9.4,9.2,9.1
+1790,enjoy porto apartment,2016,Apartamento,32785/AL,41.1533060087016,-8.607227826123738,9.2,9.0,9.5
+1877,porto spot apartments 4,2014,Apartamento,5524/AL,41.15452640716767,-8.609880859870415,9.6,9.5,9.5
+1878,porto center,2014,Apartamento,6397/AL,41.153787397448056,-8.611359405472408,9.2,9.3,8.9
+1879,varanda sobre o porto,2016,Apartamento,38038/AL,41.15377974799499,-8.6112812772307,8.4,9.3,8.2
+1912,nice apart downtown porto,2016,Apartamento,25730/AL,41.155447998797776,-8.605856667238326,8.4,8.0,8.4
+1929,trindade,2015,Apartamento,12264/AL,41.15374050374157,-8.608703080274957,7.8,8.7,7.8
+1932,feelporto panoramic townhouse,2015,Apartamento,18733/AL,41.15371061561844,-8.607660946908547,8.6,8.3,8.1
+1935,nuno marinho,2015,Apartamento,16689/AL,41.15382251044948,-8.607455273644389,8.3,8.7,8.2
+1937,portowine apartment,2016,Apartamento,33866/AL,41.15374805981912,-8.607424973899715,7.8,8.8,8.4
+1981,chopin,2016,Apartamento,23368/AL,41.158773236864015,-8.628049519186563,8.7,8.6,8.5
+1982,vivaldi,2016,Apartamento,23365/AL,41.158751992121516,-8.628065432006283,8.7,8.6,8.5
+1983,strauss,2016,Apartamento,23359/AL,41.15873156577311,-8.628078651284508,8.7,8.6,8.5
+1984,mozart,2016,Apartamento,23355/AL,41.15876187533881,-8.628028228924384,8.7,8.6,8.5
+1985,beethoven,2016,Apartamento,23346/AL,41.15874491826105,-8.628096777922226,8.7,8.6,8.5
+2031,praça 66 guest house,2016,Apartamento,36564/AL,41.16077810205727,-8.603997139360834,9.2,8.8,9.1
+2189,ana raquel catarino fernades gingeira martins,2014,Apartamento,5925/AL,41.150406848163236,-8.606845505033093,,,
+2192,oporto lux city break,2014,Apartamento,5317/AL,41.150364478107804,-8.606820113752375,9.1,9.3,8.7
+2193,oporto lux touwnhouse,2014,Apartamento,5253/AL,41.150343067411846,-8.60686210526704,9.1,9.3,8.7
+2194,feelporto downtown poets flat,2015,Apartamento,18668/AL,41.15032396189713,-8.606897088651339,9.1,9.3,8.7
+2249,size,2017,Moradia,58828/AL,41.15497068367317,-8.60451610110667,9.8,9.9,9.5
+2266,zelije,2017,Apartamento,60185/AL,41.15054522290112,-8.609887610232626,9.3,9.6,8.7
+2269,top floor balcony apartment,2017,Apartamento,48518/AL,41.14878313891094,-8.600765253230145,9.5,9.4,8.6
+2278,oporto lifestyle apartements,2017,Apartamento,52647/AL,41.14761339836575,-8.601716489653663,8.9,9.1,8.9
+2280,oporto 7,2017,Apartamento,54833/AL,41.144810734623476,-8.5769585775101,8.9,8.2,9.1
+2282,pexorental,2017,Apartamento,55611/AL,41.15085229667266,-8.616306576435639,5.2,7.5,5.0
+2292,aliados vista,2017,Apartamento,42614/AL,41.15031542185268,-8.612149911259333,,,
+2303,home at porto - aliados - d. luis,2017,Apartamento,43850/AL,41.15031542185268,-8.612149911259333,9.6,9.8,9.3
+2304,home at porto - aliados - infante,2017,Apartamento,43845/AL,41.15031542185268,-8.612149911259333,9.6,9.8,9.3
+2305,home at porto - aliados - arrabida,2017,Apartamento,43853/AL,41.15031542185268,-8.612149911259333,9.6,9.8,9.3
+2306,chic & cozy apartments,2017,Apartamento,48322/AL,41.15031542185268,-8.612149911259333,9.4,9.7,9.4
+2307,home at porto - aliados - d. maria,2017,Apartamento,43839/AL,41.15031542185268,-8.612149911259333,9.6,9.8,9.3
+2309,boavista,2017,Apartamento,57237/AL,41.15584290926324,-8.61698003975871,8.2,8.2,8.3
+2330,starry night balcony,2017,Apartamento,60884/AL,41.149311090677514,-8.616737766104015,9.3,9.6,9.3
+2331,carregal apartment,2017,Apartamento,59616/AL,41.14931908351466,-8.61670662199433,,,
+2332,oporto bernardes studios - clã©rigos,2017,Apartamento,59973/AL,41.14935264072461,-8.616714905444072,9.3,9.4,9.3
+2361,best sensations studio,2017,Apartamento,52944/AL,41.155995011145976,-8.607843824263385,,,
+2362,doble jewel,2017,Apartamento,53038/AL,41.1537675710599,-8.609067072456975,,,
+2363,porto downtown's panoramic view,2017,Apartamento,55532/AL,41.15372396991794,-8.609067701875825,,,
+2430,parque da cidade,2017,Moradia,52460/AL,41.167232815857886,-8.66706279262422,9.0,8.8,8.9
+2435,antonio moreira,2017,Apartamento,60262/AL,41.152255026758695,-8.600093534494075,8.1,8.5,8.5
+2463,a casinha do porto,2017,Apartamento,41617/AL,41.157871923079014,-8.602500302159367,8.5,7.8,8.1
+2467,casa da alegria,2017,Apartamento,45154/AL,41.15908384627799,-8.601022700136346,6.3,6.6,5.9
+2473,a nossa casa,2017,Apartamento,57192/AL,41.1713346948161,-8.657674925605807,9.4,8.4,9.2
+2496,happy apartement porto,2017,Apartamento,59053/AL,41.15819104334579,-8.601431740728263,7.8,8.1,8.2
+2499,alojamento local,2017,Apartamento,50814/AL,41.15777660493565,-8.600643065567516,8.6,8.6,9.4
+2521,9:36 no porto,2017,Moradia,54237/AL,41.15490777765044,-8.602364745349956,8.7,8.4,8.8
+2530,amazonia apartment,2017,Apartamento,50515/AL,41.16159198137397,-8.601048187723427,8.8,8.2,8.8
+2606,la paz oporto touristic apartment,2017,Apartamento,44303/AL,41.15662085939539,-8.594643115091483,8.8,7.8,8.7
+2639,db 24 agosto i,2017,Apartamento,48889/AL,41.147364753125096,-8.600057610131804,9.5,9.2,9.6
+2650,invicta house,2017,Apartamento,54274/AL,41.16625877974053,-8.5876272616967,8.9,8.3,9.1
+2651,flamingo rose,2017,Apartamento,56877/AL,41.16638866317679,-8.587154501024779,8.8,7.7,8.8
+2664,bessa apartment,2017,Apartamento,53653/AL,41.150531009998986,-8.593279151396315,9.6,8.7,9.5
+2679,lima house,2017,Apartamento,51006/AL,41.16031862329163,-8.600460808186337,8.5,7.7,8.7
+2681,mansaodosherois,2017,Moradia,60590/AL,41.146318512926264,-8.592836360170407,7.7,8.1,7.7
+2718,morgado mateus apartment,2017,Apartamento,60559/AL,41.146633509647884,-8.601656466352383,7.7,8.3,7.5
+2743,porto apartments,2017,Apartamento,58710/AL,41.15819945310714,-8.578480732176722,7.4,7.4,8.1
+2751,cn oporto apartments,2017,Apartamento,49676/AL,41.14783710071561,-8.601393268731114,7.6,8.2,7.6
+2752,cn oporto apartments,2017,Apartamento,49832/AL,41.14784786714726,-8.601381999449544,7.6,8.2,7.6
+2795,marta daniela da silva rocha oliveira coelho,2017,Apartamento,52347/AL,41.149725189996225,-8.616822423908769,9.1,9.7,9.2
+2797,93 cedofeita apartments a,2017,Apartamento,49901/AL,41.14973301320163,-8.61689967728035,8.4,9.5,8.5
+2801,oporto guest downtown cedofeita,2017,Apartamento,49241/AL,41.149854626025146,-8.616892893195736,9.1,9.7,9.1
+2814,art room,2017,Estabelecimento de hospedagem,41175/AL,41.15178249697425,-8.612311529714695,9.1,9.0,8.8
+2819,oporto rustic,2017,Moradia,53112/AL,41.1458976278366,-8.584097813235317,9.2,7.9,9.5
+2835,porto box,2017,Apartamento,48318/AL,41.15947066638486,-8.590885009411014,,,
+2846,residencial costa verde,2017,Estabelecimento de hospedagem,49688/AL,41.16271690554836,-8.610612545721386,6.7,7.0,6.6
+2847,casa da praca,2017,Estabelecimento de hospedagem,46191/AL,41.15519160858665,-8.613487903263954,9.4,9.2,9.2
+2863,enjoy porto,2017,Estabelecimento de hospedagem,48666/AL,41.150407345590516,-8.61365742259321,-1.0,9.5,9.2
+2874,living porto apartments,2017,Apartamento,38336/AL,41.150426810756926,-8.60967886096124,9.1,9.5,8.9
+2875,living porto apartments,2017,Apartamento,38339/AL,41.150417507562906,-8.60969620822031,9.1,9.5,8.9
+2876,living porto apartments,2017,Apartamento,38340/AL,41.150436295942455,-8.60967514767344,9.1,9.5,8.9
+2877,living porto apartments,2017,Apartamento,38344/AL,41.150432321073936,-8.609700176710152,9.1,9.5,8.9
+2878,living porto apartments,2017,Apartamento,38347/AL,41.15044128099666,-8.609693937733603,9.1,9.5,8.9
+2879,living porto apartments,2017,Apartamento,38349/AL,41.15048940548819,-8.609800935305023,9.1,9.5,8.9
+2886,4portoapartments#1,2017,Apartamento,48355/AL,41.15029862075902,-8.613260837901603,9.9,9.8,9.5
+2887,4portoapartments#2,2017,Apartamento,48361/AL,41.15027520316501,-8.61327768698283,9.8,9.9,9.6
+2888,the garden,2017,Apartamento,53298/AL,41.15025655574056,-8.613293310639426,9.3,9.6,9.6
+2889,liiiving in porto | duplex downtown flat,2017,Apartamento,59652/AL,41.150231234639136,-8.61330951559271,9.3,8.8,8.1
+2901,our home city flat,2017,Apartamento,41246/AL,41.15551225194335,-8.615327180070915,9.4,9.0,9.5
+2904,bcharming apartment,2017,Apartamento,59113/AL,41.162458637108266,-8.618857424407556,8.5,7.4,8.5
+2905,porto belo,2017,Apartamento,40249/AL,41.15261066164059,-8.613525514137034,9.2,9.2,9.1
+2922,lapa 39 - porto downtown studio,2017,Apartamento,48362/AL,41.156055580679705,-8.61343161291893,9.1,8.5,8.8
+2928,pinheiros 102,2017,Apartamento,51895/AL,41.150776433216485,-8.613869132661232,8.9,9.2,8.4
+2937,lapa apartments,2017,Apartamento,54806/AL,41.15892571291122,-8.61090457150504,9.0,8.3,9.0
+2939,go2oporto@ living almada,2017,Apartamento,57292/AL,41.151165597054046,-8.61226269398759,8.8,9.1,8.4
+2940,ivcorreia,2017,Apartamento,50564/AL,41.15040276604601,-8.613144292180756,9.6,9.8,9.4
+2946,pensio bastos -a. almada,2017,Apartamento,50507/AL,41.15336013809831,-8.612155973314003,8.2,8.6,8.3
+2947,almada 665,2017,Apartamento,54537/AL,41.153343162277174,-8.612113297209506,8.4,8.5,8.3
+2955,almada loft,2017,Apartamento,52244/AL,41.150569362186594,-8.612274361368836,9.6,9.8,9.5
+2957,porto fado apartment,2017,Apartamento,38707/AL,41.150770712721325,-8.612190807853525,9.0,9.6,8.6
+2958,almada studio 419,2017,Apartamento,48952/AL,41.150763355729204,-8.612298549570555,9.5,9.7,9.5
+2960,porto lovers almada,2017,Apartamento,50351/AL,41.150762033807794,-8.61221532957113,,,
+2962,patio alma,2017,Apartamento,54002/AL,41.15077376707686,-8.612315646294363,,,
+2979,apartment porto,2017,Apartamento,46609/AL,41.15169502757698,-8.617469357418926,8.9,8.1,9.0
+2983,loft da lulu,2017,Apartamento,59809/AL,41.153415911336886,-8.612470317593736,,,
+2992,forrester apartment,2017,Apartamento,40416/AL,41.15660047111231,-8.619563579081435,6.8,8.0,6.1
+3007,portopleiad,2017,Moradia,55224/AL,41.16228805990059,-8.616613455075976,7.9,6.9,8.0
+3011,porto belo carmo apartment,2017,Apartamento,59752/AL,41.15002274285695,-8.616642578777647,9.5,9.7,9.4
+3045,arcelino oliveira cedofeita,2017,Apartamento,54383/AL,41.15315907593307,-8.621155871988352,7.6,7.8,7.4
+3049,green balconies flat,2017,Apartamento,59542/AL,41.15004647589875,-8.613243400967526,9.7,9.8,9.4
+3079,apartment boavista roundabout by sweet porto - 3t,2017,Apartamento,46894/AL,41.1587197238667,-8.628125306405492,8.7,8.6,8.5
+3140,montecativo apartamento,2017,Apartamento,45999/AL,41.15965239174553,-8.617311925851661,9.6,8.7,9.6
+3146,portovivo quental apartamento,2017,Apartamento,44612/AL,41.16140380603582,-8.611234008342501,8.9,8.2,9.0
+3176,feel porto,2017,Apartamento,48394/AL,41.16351664404386,-8.622878739029273,8.7,7.9,8.3
+3219,clerigos-virtudes penthouse,2017,Apartamento,40448/AL,41.144330470811845,-8.617637182292743,8.2,9.4,8.0
+3225,casa do jardim,2017,Moradia,48644/AL,41.15175172989513,-8.649282131135099,9.6,9.7,9.3
+3281,atlântico flat,2017,Apartamento,58582/AL,41.15099861787169,-8.649106713374515,9.1,8.3,9.3
+3304,r&o - river & ocean,2017,Apartamento,45618/AL,41.15445053668678,-8.647564278531014,8.5,7.9,8.8
+3310,flower's downtown,2017,Apartamento,61266/AL,41.14544333114143,-8.620249426448463,9.3,9.3,9.3
+3442,casa quinta do covelo,2017,Apartamento,41336/AL,41.163460257578635,-8.606748956925514,9.0,8.5,9.2
+3458,marques house,2017,Moradia,42547/AL,41.16229182243861,-8.606564481038216,8.1,8.1,8.3
+3471,ac,2017,Moradia,39336/AL,41.164543998260626,-8.606702856020814,7.9,7.2,8.4
+3493,apartamento prelada,2017,Apartamento,50343/AL,41.17110225305638,-8.637606001636296,9.3,8.4,9.4
+3496,apartamento serpa pinto,2017,Apartamento,39740/AL,41.166931511476065,-8.620079433672776,,,
+3545,coolhome,2017,Apartamento,49513/AL,41.15373455113345,-8.608610024841342,,,
+3546,blue apartment,2017,Apartamento,45467/AL,41.15373549994469,-8.608574646415102,8.5,8.9,8.3
+3547,green apartment,2017,Apartamento,50332/AL,41.153735573374775,-8.608556916768151,9.0,8.6,8.7
+3548,white apartment,2017,Apartamento,50337/AL,41.153713452205764,-8.608577244415518,8.3,8.8,8.1
+3559,warehouse apartment,2017,Apartamento,48370/AL,41.150499862446026,-8.603682095836572,9.2,9.2,9.1
+3566,casa d'anita,2017,Apartamento,49293/AL,41.15374972363268,-8.609588914112823,9.1,9.4,9.0
+3567,trindade charming flat@1,2017,Apartamento,53360/AL,41.15379880631038,-8.609587693477176,9.3,9.0,8.6
+3568,trindade charming flat@2,2017,Apartamento,53363/AL,41.15379970921866,-8.609599677421139,9.3,9.0,8.7
+3569,trindade downtown apartment,2017,Apartamento,54207/AL,41.15372542110624,-8.609589367721984,-1.0,9.0,8.7
+3570,liiiving in porto | splendid view apartment,2017,Apartamento,57199/AL,41.15371440219166,-8.609603788203616,9.3,9.1,8.4
+3571,invicta downtown,2017,Apartamento,58152/AL,41.15373518992183,-8.609589123010073,9.3,9.2,8.8
+3572,nuno studio,2017,Apartamento,52254/AL,41.15321207021478,-8.607862912300481,9.3,10.0,9.4
+3596,soft linen balcony,2017,Apartamento,53924/AL,41.150338645319316,-8.60400085914461,,,
+3598,oporto view,2017,Apartamento,49294/AL,41.15005457535354,-8.604083036239048,9.7,9.6,9.6
+3624,camoes apartment,2017,Apartamento,53656/AL,41.15661295232527,-8.609791025432399,9.6,9.3,9.5
+3629,porto almada garden,2017,Apartamento,56649/AL,41.15150144056019,-8.611839469510711,,,
+3631,porto nautico,2017,Moradia,44984/AL,41.151320084514154,-8.611897268117682,9.3,9.4,8.8
+3636,charm garden almada,2017,Estabelecimento de hospedagem,45016/AL,41.150945595014555,-8.611915272721088,-1.0,8.9,7.8
+3650,oporto golden apartment,2017,Apartamento,42455/AL,41.1498715592455,-8.609167164831515,9.4,9.6,9.1
+3651,aliados town hall porto,2017,Apartamento,47346/AL,41.14989402262989,-8.609208301604678,9.6,9.7,9.3
+3653,look at me,2017,Estabelecimento de hospedagem,46479/AL,41.152187640551766,-8.610838171921584,9.5,9.7,9.3
+3672,trindade - oporto apartments group,2017,Apartamento,45585/AL,41.15257488668549,-8.61028832015081,7.6,8.8,7.4
+3680,airosa,2017,Apartamento,43247/AL,41.16765265761363,-8.63801503180419,,,
+3683,apartamento de francos arrabida,2017,Apartamento,45368/AL,41.166791007155,-8.636677595535708,8.0,8.2,8.3
+3685,almada suite home,2017,Apartamento,48525/AL,41.15007887818932,-8.611895834252536,9.7,10.0,9.6
+3688,white almada,2017,Apartamento,53600/AL,41.14987157816062,-8.61188198085356,8.7,9.3,8.3
+3700,apartamento na trindade,2017,Apartamento,57185/AL,41.15265341370471,-8.611579021774595,9.4,9.4,9.2
+3706,samasal trindade studio 1,2017,Apartamento,58491/AL,41.152321747295616,-8.611075311198517,9.3,9.8,9.4
+3707,samasal trindade studio 2,2017,Apartamento,58492/AL,41.15233118158808,-8.611098309778546,9.3,9.8,9.4
+3708,samasal trindade studio 3,2017,Apartamento,58493/AL,41.15230542856721,-8.611060693157723,9.3,9.8,9.4
+3709,samasal trindade studio 4,2017,Apartamento,58494/AL,41.15229436446197,-8.611071644986437,9.3,9.8,9.4
+3710,samasal trindade studio 5,2017,Apartamento,58495/AL,41.15231006964783,-8.611090671066906,9.3,9.8,9.4
+3711,samasal trindade studio 6,2017,Apartamento,58497/AL,41.152316556934416,-8.611106083517727,9.3,9.8,9.4
+3712,samasal trindade studio 7,2017,Apartamento,58498/AL,41.15232809893719,-8.611123504390001,9.3,9.8,9.4
+3716,oporto vintage apartment,2017,Apartamento,50860/AL,41.15224545836031,-8.611013385103485,9.8,9.7,9.5
+3724,4 rooms,2017,Apartamento,50083/AL,41.15245997445459,-8.60800163721203,7.5,9.4,7.2
+3733,apatrindade,2017,Apartamento,56775/AL,41.15374841012889,-8.610789769681977,9.4,9.2,9.3
+3742,bonjardim blue apartment d,2017,Apartamento,40993/AL,41.150318677565444,-8.609391232291589,-1.0,9.6,9.1
+3743,bonjardim blue apartment f,2017,Apartamento,42588/AL,41.1503247484847,-8.609420903775288,9.5,9.6,9.4
+3752,turra guest house,2017,Apartamento,51756/AL,41.15115869015367,-8.607519248624863,9.6,9.5,9.5
+3756,feel porto downtown essence,2017,Apartamento,51537/AL,41.150496935371436,-8.606776397660463,9.1,9.3,8.7
+3758,feel porto downtown city roofs,2017,Apartamento,51544/AL,41.150240492354236,-8.606925493522189,9.1,9.3,8.7
+3759,feel porto downtown heaven,2017,Apartamento,51550/AL,41.15026342229599,-8.606911160593151,9.1,9.3,8.7
+3778,bonjardim - oporto invite,2017,Apartamento,56558/AL,41.1496950034345,-8.609397627724762,8.7,9.2,8.3
+3779,bonjardim - oporto invite,2017,Apartamento,56565/AL,41.14969721370685,-8.609367306690674,8.7,9.2,8.3
+3780,bonjardim- oporto invite,2017,Apartamento,56569/AL,41.14969941162675,-8.609339744456497,8.7,9.2,8.3
+3781,bonjardim - oporto invite,2017,Apartamento,56572/AL,41.14970643968037,-8.609368555390859,8.7,9.2,8.3
+3789,almada wine house,2017,Apartamento,57616/AL,41.14744207877518,-8.612055908443942,9.4,9.8,9.1
+3801,palacio do comércio apartments,2017,Apartamento,50470/AL,41.15048781647012,-8.607136853926418,,,
+3802,palacio do comércio apartments,2017,Apartamento,50854/AL,41.15050617632695,-8.607190883367426,,,
+3805,t1 bolhao 47,2017,Apartamento,55422/AL,41.15073760756403,-8.607912804092166,8.4,9.4,7.8
+3807,spot apartments bolhao,2017,Apartamento,55518/AL,41.15105993561359,-8.607636575747257,9.6,9.5,9.5
+3819,homeintown almada,2017,Apartamento,61007/AL,41.15213412844433,-8.61174504275816,,,
+3820,oporto almada terrace,2017,Apartamento,61100/AL,41.15213450847851,-8.611797053224704,10.0,10.0,10.0
+3823,trindade tower,2017,Apartamento,47019/AL,41.153780329611536,-8.607415507720729,8.9,8.9,9.0
+3825,liiiving in porto | divine view apartment,2017,Apartamento,59146/AL,41.15372458591854,-8.607414475494336,9.8,9.4,9.7
+3826,casa das musas,2017,Apartamento,38676/AL,41.1559083123816,-8.60967656077595,9.5,8.9,9.5
+3833,main avenue flat,2017,Apartamento,49892/AL,41.14912469648735,-8.611893927686122,,,
+3837,porto central,2017,Apartamento,50045/AL,41.1483429634403,-8.609721532917595,8.8,9.7,8.4
+3846,oporto rooftop,2017,Apartamento,42781/AL,41.15025983787622,-8.608451312186594,8.9,9.4,8.8
+3847,oporto guest down town fernandes tomas,2017,Apartamento,43715/AL,41.15022105186927,-8.60846876148392,9.2,9.7,8.9
+3849,family's hut,2017,Apartamento,54571/AL,41.15024813971718,-8.608471715553167,9.2,9.5,9.3
+3850,porto stanza,2017,Apartamento,60326/AL,41.15634197358493,-8.609807247381623,9.0,9.2,8.8
+3851,pinpoint porto apartment,2017,Apartamento,48383/AL,41.1506276302448,-8.60665547221703,9.3,9.9,9.2
+3853,reurban flats - santa catarina #1,2017,Apartamento,51561/AL,41.15306213249669,-8.604910935631173,8.9,8.8,8.6
+3854,reurban flats - santa catarina #2,2017,Apartamento,51566/AL,41.15306307757827,-8.604970831066822,8.9,8.8,8.6
+3862,chic & cozy apartments,2017,Apartamento,48649/AL,41.14607786880451,-8.605649692701784,9.1,9.5,9.0
+3867,heart & soul downtown apartments,2017,Apartamento,42416/AL,41.14654655542726,-8.606860748885998,9.4,9.7,8.5
+3868,heart & soul downtown apartments,2017,Apartamento,42465/AL,41.14654253848817,-8.606823687450419,9.4,9.7,8.5
+3869,santa catarina light apartment,2017,Apartamento,44590/AL,41.14655556956273,-8.606841115542098,8.6,9.6,8.3
+3870,sojo apartamentos,2017,Apartamento,54848/AL,41.14655301586749,-8.606810368366514,9.1,9.7,8.6
+3871,oporto's fluke,2017,Apartamento,59219/AL,41.146557814734116,-8.606874619251961,9.3,9.7,8.9
+3877,galatikpassion - lda,2017,Apartamento,50525/AL,41.15236643448046,-8.605594104722817,9.0,9.1,8.9
+3878,galatikpassion - lda,2017,Apartamento,50531/AL,41.15239233178345,-8.605669308607256,9.0,9.1,8.9
+3879,t3 siloauto,2017,Apartamento,53827/AL,41.15240235308059,-8.605636600371426,,,
+3886,santa catarina for 6,2017,Apartamento,60012/AL,41.151883618928665,-8.60484659027341,-1.0,9.0,8.1
+3887,santa catarina 652,2017,Apartamento,45680/AL,41.1518298295838,-8.604824406647221,8.9,9.4,8.7
+3892,laurear guest house,2017,Estabelecimento de hospedagem,52955/AL,41.147408417950665,-8.612546808757722,-1.0,9.6,8.6
+3894,formosa apartment,2017,Apartamento,39496/AL,41.14920717541664,-8.608909361076853,8.1,9.4,7.9
+3898,mercado dos poetas,2017,Apartamento,59632/AL,41.150117628637865,-8.607539199312551,9.3,9.5,9.0
+3906,ml oporto apartments central street,2017,Apartamento,49562/AL,41.15118921235681,-8.605100935271153,8.9,9.7,8.7
+3907,citybreak-apartments bolhao,2017,Apartamento,43346/AL,41.15143191921135,-8.605044621266737,8.7,9.4,8.5
+3908,citybreak-apartments bolhao,2017,Apartamento,43352/AL,41.15140140245354,-8.605006184760883,8.7,9.4,8.5
+3909,citybreak-apartments bolhao,2017,Apartamento,43353/AL,41.151410789740744,-8.605040924003125,8.7,9.4,8.5
+3910,citybreak-apartments,2017,Apartamento,43359/AL,41.151423127088414,-8.605009886295859,8.7,9.4,8.5
+3919,linha 22 suites,2017,Estabelecimento de hospedagem,49231/AL,41.145823128535035,-8.612780779144042,-1.0,9.7,8.6
+3920,2 u oporto urban stays 1,2017,Apartamento,54574/AL,41.14577923419335,-8.613150676995904,-1.0,9.2,7.4
+3921,2 u oporto urban stays 2,2017,Apartamento,54578/AL,41.14576345697122,-8.61314937989909,-1.0,9.2,7.4
+3922,2 u oporto urban stays 3,2017,Apartamento,54580/AL,41.145770558942274,-8.613160067783392,-1.0,9.2,7.4
+3923,2 u oporto urban stays 4,2017,Apartamento,54582/AL,41.145772123991755,-8.613141956855268,-1.0,9.2,7.4
+3924,fred´s house clérigos,2017,Moradia,43834/AL,41.14578425817717,-8.613051941165375,,,
+3961,apartment at porto city center fontinha,2017,Apartamento,57553/AL,41.155164435592354,-8.605213171311426,8.9,8.6,8.6
+3982,dã³nigo porto 1,2017,Apartamento,59991/AL,41.14529890870925,-8.60557011722691,,,
+3999,oporto central apartments,2017,Apartamento,43211/AL,41.14331570663156,-8.617706434283479,7.5,8.9,7.6
+4000,oporto central apartments,2017,Apartamento,43213/AL,41.14330359727622,-8.617685417962667,7.5,8.9,7.6
+4002,oporto central apartments,2017,Apartamento,43205/AL,41.143297441314374,-8.617849778012108,7.5,8.9,7.6
+4003,oporto central apartments,2017,Apartamento,43207/AL,41.143290129491106,-8.617854767140608,7.5,8.9,7.6
+4032,casa amarela i,2017,Apartamento,59214/AL,41.154126117168644,-8.611833350866972,9.2,8.8,9.1
+4033,casa amarela ii,2017,Apartamento,59216/AL,41.15411575360237,-8.611833276399548,9.2,8.8,9.1
+4034,casa amarela iii,2017,Apartamento,59217/AL,41.15412247113309,-8.61176476642852,9.2,8.8,9.1
+4035,casa amarela iv,2017,Apartamento,59220/AL,41.15412268855495,-8.611798338093378,9.2,8.8,9.1
+4037,terraco da maria,2017,Apartamento,50106/AL,41.15384836757365,-8.611035085791384,9.0,9.1,9.0
+4038,poetryloft,2017,Apartamento,54090/AL,41.15378684341116,-8.611049138003597,9.9,9.4,9.8
+4042,porto windows,2017,Apartamento,42738/AL,41.15059991903669,-8.6090303386215,7.5,8.0,7.5
+4049,santa catarina cozy nest - porto downtown,2017,Apartamento,57229/AL,41.15069774386369,-8.605248866416328,9.2,9.5,8.9
+4060,bras house,2017,Moradia,61609/AL,41.15779108920504,-8.610950739632953,8.8,8.2,9.0
+4075,bonjardim flats,2017,Apartamento,59926/AL,41.151522059223595,-8.608245122471873,9.1,9.2,8.8
+4076,bonjardim flats,2017,Apartamento,59929/AL,41.15151277472714,-8.608185561093677,8.2,8.1,7.4
+4077,bonjardim flats,2017,Apartamento,60093/AL,41.15149583522022,-8.608249266285348,7.4,8.1,5.6
+4078,bonjardim flats,2017,Apartamento,60095/AL,41.15148833474626,-8.608190507662504,8.5,9.3,8.7
+4079,abbey apartment 2,2017,Apartamento,48996/AL,41.148033712683336,-8.607866942472967,8.3,8.6,7.9
+4080,porto terrace apartment,2017,Estabelecimento de hospedagem,55770/AL,41.148031724331034,-8.607829106249488,9.6,9.6,9.4
+4125,db residence b,2017,Apartamento,53642/AL,41.15596501602386,-8.605264831302058,8.3,7.5,8.5
+4126,db residence h,2017,Apartamento,56265/AL,41.15594637826892,-8.605277718475058,9.1,8.5,8.8
+4127,db residence e,2017,Apartamento,58858/AL,41.155939299877616,-8.605261119731402,8.7,7.9,8.4
+4166,feel porto syrah townhouse,2017,Apartamento,54030/AL,41.15212201225761,-8.606689600812555,9.4,9.2,9.1
+4167,feel porto merlot townhouse,2017,Apartamento,54033/AL,41.152108880793364,-8.60663844436425,9.4,9.2,9.1
+4170,downtown with terrace - 4 bedrooms,2017,Apartamento,46866/AL,41.150304118227005,-8.60870998617776,7.6,8.7,7.7
+4171,charm suite residence,2017,Apartamento,60138/AL,41.14680934117213,-8.6052622930058,9.5,9.6,9.1
+4181,invicta porto guest house,2017,Moradia,49652/AL,41.15563823755318,-8.605292035164108,8.3,7.7,8.3
+4255,oporto city flats - cimo de vila,2017,Moradia,39452/AL,41.145134644170064,-8.607846926620129,-1.0,8.0,7.1
+4257,sta. catarina 555 - downtown suite apartment,2017,Apartamento,54125/AL,41.15110084190947,-8.605447508830945,8.9,9.1,8.7
+4271,casa da baixa,2017,Apartamento,55956/AL,41.14578236430152,-8.60479602076399,8.4,9.2,8.5
+4272,infante apartment,2017,Apartamento,48369/AL,41.14362176745948,-8.603151600099102,,,
+4296,alojamento ferreira borges,2017,Apartamento,38924/AL,41.14233323197929,-8.615039727308636,7.9,9.6,7.3
+4310,jf apartment blue,2017,Apartamento,51743/AL,41.14857904916523,-8.614236918824481,,,
+4311,vitoria house,2017,Apartamento,59297/AL,41.14842315526198,-8.61372799351178,9.5,9.9,9.1
+4312,oporto ceuta residences - residence 6,2017,Apartamento,59813/AL,41.148420431122595,-8.613695825105486,9.0,9.6,8.6
+4313,oporto ceuta residences - residence 9,2017,Apartamento,59814/AL,41.14845085288029,-8.613727643747836,9.0,9.8,8.1
+4314,oporto ceuta residences - residence 10,2017,Apartamento,59816/AL,41.14851482884343,-8.613682724896972,9.0,9.8,8.1
+4315,oporto ceuta residences - residence 4,2017,Apartamento,59817/AL,41.148448317574086,-8.61369295610483,9.2,9.8,8.7
+4316,oporto ceuta residences - residence 11,2017,Apartamento,59818/AL,41.14846918081056,-8.613688774147013,9.3,9.7,8.9
+4317,oporto ceuta residences - residence 12,2017,Apartamento,59819/AL,41.148499954415406,-8.61372193550375,9.3,9.7,8.9
+4318,oporto ceuta residences - residence 2,2017,Apartamento,59828/AL,41.148481613326744,-8.613706751314337,9.6,9.6,9.2
+4319,oporto ceuta residences - residence 3,2017,Apartamento,60119/AL,41.148439597730075,-8.613712985592727,9.3,9.7,8.9
+4320,oporto ceuta residences - residence 7,2017,Apartamento,60123/AL,41.14849860811552,-8.613687571027578,9.3,9.7,8.9
+4321,pedro dixo,2017,Apartamento,58446/AL,41.14846089463809,-8.613642651597832,,,
+4324,a casinha da carlota,2017,Apartamento,48317/AL,41.14651915196917,-8.604975649142638,,,
+4340,feel porto lbv townhouse,2017,Apartamento,44817/AL,41.151990838561574,-8.60679890933823,9.4,9.2,9.1
+4341,feel porto vintage townhouse,2017,Apartamento,44824/AL,41.15196719501988,-8.606812923024732,9.4,9.2,9.1
+4352,gold leaf groundfloor,2017,Apartamento,51408/AL,41.14897009565148,-8.603172820067302,6.4,8.1,6.3
+4401,oportonow-bolhao,2017,Apartamento,45786/AL,41.14831632575736,-8.60766062959852,9.1,9.5,9.1
+4402,oportonow-bolhao,2017,Apartamento,46478/AL,41.148303632659385,-8.607633353239143,9.1,9.5,9.1
+4410,in citu,2017,Apartamento,53701/AL,41.1478882708157,-8.60447486625204,9.5,9.7,9.1
+4422,studio apartment - center of porto,2017,Apartamento,54956/AL,41.147850773820295,-8.604278695889668,9.1,9.2,9.0
+4428,cool hostel,2017,Estabelecimento de hospedagem-Hostel,39085/AL,41.14797642487957,-8.605587444827751,8.3,9.2,8.2
+4432,mystery hostel,2017,Estabelecimento de hospedagem-Hostel,48660/AL,41.153284925771096,-8.607896118221683,6.5,7.7,6.8
+4458,oporto center studio,2017,Apartamento,53485/AL,41.154351564147504,-8.611709717576193,7.9,8.5,7.8
+4462,republica's garden,2017,Apartamento,48315/AL,41.15425460273451,-8.61181035172428,,,
+4467,go2oporto@ ceuta,2017,Apartamento,57275/AL,41.1481342751718,-8.613628771865967,,,
+4468,porto central apartment,2017,Apartamento,59713/AL,41.148116662225796,-8.613653226963999,9.0,9.7,8.6
+4480,as2,2017,Apartamento,56919/AL,41.14557061486746,-8.614202492923582,9.7,10.0,9.8
+4481,as3,2017,Apartamento,56921/AL,41.14553674905782,-8.614211069856978,9.2,9.7,8.8
+4482,as4,2017,Apartamento,57003/AL,41.145543024792325,-8.614191574893749,9.5,9.9,9.2
+4510,casa da picaria,2017,Apartamento,42504/AL,41.14952118539805,-8.612817742478493,9.1,9.6,8.8
+4513,nazoni house,2017,Apartamento,46574/AL,41.14536189758465,-8.613500729567491,7.4,9.1,7.0
+4517,psl home 2,2017,Apartamento,44217/AL,41.145160323167,-8.612691321130091,9.4,9.8,9.0
+4518,caldeireiros garden little house,2017,Apartamento,56257/AL,41.14515841345832,-8.612635050166107,,,
+4525,loft sa de noronha 43,2017,Apartamento,59912/AL,41.14769085159378,-8.615396070897543,9.7,9.9,9.8
+4532,sao bento,2017,Apartamento,61455/AL,41.14502626684764,-8.611308655419235,8.1,9.2,7.5
+4533,sao bento ii,2017,Apartamento,61553/AL,41.14502622220421,-8.611319370692032,8.1,9.2,7.5
+4558,apartamentos da fabrica,2017,Apartamento,46813/AL,41.14748816035432,-8.612802191988994,8.6,10.0,8.3
+4560,triplex house,2017,Moradia,55125/AL,41.14557010775697,-8.612819242562082,7.9,9.5,7.8
+4580,house of artists,2017,Moradia,53234/AL,41.14527790677104,-8.612791349297483,-1.0,9.7,8.7
+4592,oporto old center 15,2017,Apartamento,59258/AL,41.144731973013386,-8.61251240843833,,,
+4596,picaria 14,2017,Apartamento,38325/AL,41.14877472931654,-8.61284762991621,8.2,9.5,8.0
+4597,picaria 14,2017,Apartamento,38327/AL,41.14877024399345,-8.612894875395279,8.4,9.1,8.2
+4600,picaria,2017,Apartamento,60323/AL,41.14965797181691,-8.6132502511246,9.6,9.9,9.5
+4604,i loft porto,2017,Estabelecimento de hospedagem,60203/AL,41.14887448490237,-8.612819563002153,9.3,9.6,9.0
+4642,porto music house downtown,2017,Apartamento,52461/AL,41.15417330648583,-8.626487789737778,,,
+4652,loios cubo,2017,Apartamento,43947/AL,41.145660881015814,-8.61210267985946,8.8,9.9,8.5
+4653,nuno sf,2017,Apartamento,52632/AL,41.145650888706705,-8.61209929784224,9.2,9.9,9.0
+4655,carlos alberto balcony apt,2017,Apartamento,41081/AL,41.148264492307646,-8.615457724145985,,,
+4661,alfandega apartments,2017,Apartamento,53248/AL,41.14830329004064,-8.615579983447073,9.3,9.9,8.7
+4672,oporto blue picaria,2017,Apartamento,53193/AL,41.1498113244583,-8.613178676124955,,,
+4674,portosense,2017,Apartamento,50096/AL,41.14928066551412,-8.612362865131525,9.1,9.7,8.8
+4685,porto top,2017,Apartamento,40823/AL,41.1470960610067,-8.609444337400248,7.3,8.9,6.4
+4687,rest house oporto central,2017,Apartamento,40913/AL,41.14707966613028,-8.60934730360178,9.1,10.0,9.2
+4722,apartamento,2017,Apartamento,54424/AL,41.14489621846057,-8.611485620948228,,,
+4723,hannah's studios,2017,Estabelecimento de hospedagem,57644/AL,41.14485704620499,-8.61154981928095,8.4,9.6,8.3
+4725,cardosas palace apartment,2017,Apartamento,46864/AL,41.14550070857082,-8.611973934614428,9.7,9.9,9.5
+4730,estudio flor,2017,Apartamento,61235/AL,41.14496078314184,-8.611423038268898,9.3,10.0,9.5
+4734,nomad townhouse,2017,Apartamento,46525/AL,41.14539027259475,-8.611868325550883,,,
+4735,porto cardosas pateo,2017,Apartamento,60947/AL,41.145294613375164,-8.611758834296074,9.9,9.9,9.7
+4736,golden porto cardosas,2017,Apartamento,45146/AL,41.145083207865206,-8.611789301507207,9.6,9.9,9.4
+4738,the roof flores,2017,Apartamento,50140/AL,41.1450904147807,-8.611774856581384,9.6,10.0,9.4
+4739,porto bright flat,2017,Apartamento,55320/AL,41.14507539159084,-8.611778214397951,9.0,9.7,8.8
+4754,oportonow-clerigos,2017,Estabelecimento de hospedagem,45802/AL,41.145615564109995,-8.613876488274686,8.7,9.7,8.4
+4786,t2 cedofeita,2017,Apartamento,44231/AL,41.14911968128709,-8.61655802479164,,,
+4795,porto lounge hostel & guesthouse,2017,Moradia,42716/AL,41.14956996843506,-8.61230611435265,9.1,9.5,9.0
+4800,caldeireiros 2.º,2017,Apartamento,51619/AL,41.14522358637751,-8.613307626248734,,,
+4803,marques da silva,2017,Apartamento,38531/AL,41.14654725351878,-8.61446552226375,,,
+4820,feel porto photo downtown flat,2017,Apartamento,46949/AL,41.15015190074208,-8.606804548970693,9.1,9.3,8.7
+4821,mercado,2017,Apartamento,48817/AL,41.15016003659002,-8.606824937433922,9.3,9.6,9.1
+4872,origami porto apartment,2018,Estabelecimento de hospedagem-Hostel,72412/AL,41.157257943557,-8.60177164263077,8.3,8.0,8.7
+4877,oporto fado apartment,2018,Apartamento,62250/AL,41.15469937123148,-8.59585837372749,8.2,7.8,8.4
+4880,magalhães prime,2018,Apartamento,73061/AL,41.154697894332934,-8.595781137058504,,,
+4888,invicta house marquês,2018,Apartamento,63161/AL,41.15787934019917,-8.602434157479736,8.5,8.0,8.5
+4895,a casa das 3 marias,2018,Moradia,64698/AL,41.142212802986656,-8.596843974252861,8.6,8.1,8.4
+4896,oh.porto.,2018,Moradia,75719/AL,41.15370220826771,-8.600553828283942,9.1,8.8,8.9
+4916,aslep i,2018,Apartamento,71423/AL,41.15317485988248,-8.60021195311415,5.5,6.6,5.7
+4940,88 infinity santo ildefonso,2018,Moradia,69981/AL,41.14793115865725,-8.599839025864323,8.2,8.6,8.2
+5001,plano de fuga,2018,Estabelecimento de hospedagem,69821/AL,41.152752988738456,-8.603564962722654,9.4,9.1,9.1
+5043,central office,2018,Apartamento,70376/AL,41.14992464595301,-8.599115366869642,6.6,7.8,6.6
+5060,oporto forever d joão iv,2018,Apartamento,69704/AL,41.154034683662935,-8.60236065284098,8.5,7.8,8.9
+5086,casa do dragão,2018,Estabelecimento de hospedagem,78482/AL,41.15770196777028,-8.584753084590801,8.8,7.9,9.1
+5110,ndussole - guest house,2018,Estabelecimento de hospedagem,79188/AL,41.14953730054597,-8.588149064115479,8.8,8.5,8.5
+5112,o2 hostel,2018,Estabelecimento de hospedagem-Hostel,65807/AL,41.147138693323555,-8.596449318814068,8.7,8.5,9.0
+5118,liiiving in porto | almada garden apartments,2018,Apartamento,77630/AL,41.15186212131324,-8.612203311232026,9.9,9.2,10.0
+5140,oporto guest downtown liberdade ii,2018,Apartamento,71986/AL,41.15093963139889,-8.614299256898171,8.4,8.9,8.2
+5141,mártires apartment,2018,Apartamento,63062/AL,41.15099565495892,-8.61430482013658,,,
+5150,braga's sunny house - porto downtown,2018,Apartamento,68662/AL,41.152912767718476,-8.614052493296446,9.0,9.0,9.2
+5151,josé fernando oliveira,2018,Apartamento,75022/AL,41.15291406808731,-8.614083391884462,8.8,8.6,8.8
+5153,invicta house - avenida da boavista,2018,Apartamento,77442/AL,41.15922016836326,-8.635542691821087,8.4,8.3,8.8
+5188,apartamento,2018,Apartamento,65645/AL,41.16375358422559,-8.616117647254397,,,
+5198,pinheiros 001,2018,Apartamento,78832/AL,41.1506928178608,-8.6139246265781,8.9,9.2,8.4
+5199,pinheiros 101,2018,Apartamento,78834/AL,41.150676970102616,-8.613954139245445,8.9,9.2,8.4
+5200,pinheiros 201,2018,Apartamento,78835/AL,41.150718054530685,-8.613928593825383,8.9,9.2,8.4
+5201,pinheiros 202,2018,Apartamento,78836/AL,41.15077538552436,-8.613891819580703,8.9,9.2,8.4
+5203,carla capelas,2018,Apartamento,64015/AL,41.15105371712027,-8.61528623209326,9.6,9.4,9.6
+5224,almada loft,2018,Apartamento,68409/AL,41.15077219957044,-8.61223431500904,,,
+5235,"cozy, small & traditional",2018,Apartamento,68830/AL,41.15330174673048,-8.620874055796701,,,
+5242,cedofeita cozy,2018,Estabelecimento de hospedagem,61745/AL,41.156064946739654,-8.61948050445891,8.3,8.6,8.4
+5244,eden house,2018,Estabelecimento de hospedagem,65217/AL,41.15291628553646,-8.614688036120732,-1.0,8.6,8.1
+5263,janika's patio,2018,Apartamento,78166/AL,41.15043471885307,-8.613234178255238,9.9,10.0,9.6
+5265,live porto & douro - almada,2018,Apartamento,78952/AL,41.15042182917163,-8.613240230736777,9.4,9.4,9.4
+5266,4portoapartments#3,2018,Apartamento,70692/AL,41.15041197001584,-8.613208906155858,9.4,9.4,8.9
+5267,aposentus - your home at pinheiro's residence,2018,Apartamento,72466/AL,41.150403840197704,-8.61318757094762,9.3,9.5,9.0
+5268,casa do pinheiro,2018,Apartamento,74544/AL,41.15042140360888,-8.61317493409113,,,
+5301,oasís apartments,2018,Apartamento,65278/AL,41.155491711493205,-8.619414250890038,5.6,6.9,5.2
+5304,apartment boavista roundabout by sweet porto  - 104,2018,Apartamento,73324/AL,41.15878763379351,-8.627524420951207,8.7,8.6,8.5
+5305,apartment boavista roundabout by sweet porto  - 101,2018,Apartamento,73326/AL,41.158833577219276,-8.627560702338293,8.7,8.6,8.5
+5306,apartment boavista roundabout by sweet porto  - 102,2018,Apartamento,73327/AL,41.15880242464296,-8.627491905988556,8.7,8.6,8.5
+5307,apartment boavista roundabout by sweet porto  - 103,2018,Apartamento,73328/AL,41.15884838324002,-8.627524877765616,8.7,8.6,8.5
+5325,invicta house serpa pinto,2018,Apartamento,65163/AL,41.16250554023489,-8.620695353970687,8.7,8.1,9.1
+5334,aníbal cunha apartment,2018,Apartamento,65805/AL,41.15404856705682,-8.621102410798356,9.1,9.1,9.0
+5372,apartamentoboavistaporto,2018,Apartamento,66355/AL,41.159995212251104,-8.624879121629219,9.1,9.1,9.1
+5377,invicta house boavista,2018,Apartamento,62131/AL,41.15873851205431,-8.626969119906864,8.5,8.6,8.4
+5382,boa hora,2018,Apartamento,72256/AL,41.15199600646792,-8.621293583682132,9.2,9.2,8.8
+5405,oporto central flat,2018,Apartamento,62333/AL,41.15481810118237,-8.648219884238571,8.1,7.8,8.1
+5427,be my guest - oporto studio,2018,Apartamento,74658/AL,41.14777648127713,-8.622035536735936,,,
+5429,porto studio4u,2018,Apartamento,66437/AL,41.149167808402865,-8.623322764082594,8.3,8.9,8.3
+5438,porto downtown house ii,2018,Apartamento,72353/AL,41.152474364652406,-8.621189758152877,6.3,7.3,6.3
+5464,fullhouse porto,2018,Moradia,76929/AL,41.14784650259284,-8.630815067586223,8.6,8.3,8.5
+5473,oporto new apartment,2018,Apartamento,62257/AL,41.16614365457413,-8.593290581278726,9.3,9.2,8.9
+5555,porto city center,2018,Apartamento,80551/AL,41.16752666094176,-8.61573309803869,,,
+5595,invicta house arca d'agua,2018,Apartamento,65160/AL,41.1693059466362,-8.611645524830054,8.6,8.1,8.9
+5649,trindade city centre,2018,Apartamento,70120/AL,41.153749430984924,-8.609602149760361,8.7,9.5,8.5
+5650,trindade flat w/great view,2018,Apartamento,72726/AL,41.15373536965309,-8.609603309174023,8.2,9.0,7.0
+5651,trindade modern flat,2018,Apartamento,72736/AL,41.153781598802254,-8.609600807413278,,,
+5653,nuno - t3,2018,Apartamento,77526/AL,41.153212650213604,-8.607895540105371,,,
+5655,porto com alma,2018,Apartamento,70369/AL,41.149480665916606,-8.603561986082392,8.7,9.7,8.2
+5666,belvintage,2018,Apartamento,75347/AL,41.14262471751655,-8.61654347685398,8.4,9.2,8.1
+5672,casa alegria,2018,Apartamento,72869/AL,41.15043683988729,-8.60403848093914,,,
+5676,santa catarina flats,2018,Apartamento,79242/AL,41.15158907275306,-8.604911933868019,,,
+5680,aliados bingo,2018,Estabelecimento de hospedagem,75648/AL,41.15020047669291,-8.611828756692397,8.1,8.7,7.9
+5697,pedra antiga,2018,Moradia,79088/AL,41.1534755083102,-8.604541404963687,7.6,8.3,7.8
+5709,down town porto,2018,Apartamento,74530/AL,41.15126053242709,-8.611917730496359,9.6,9.4,9.5
+5717,modern loft in city center,2018,Apartamento,70144/AL,41.14988370738793,-8.609254323925851,9.4,9.8,9.0
+5718,bonjardim,2018,Apartamento,63232/AL,41.150086453297874,-8.60925888361756,8.6,9.3,8.4
+5721,gabriel,2018,Estabelecimento de hospedagem,71337/AL,41.16104667772703,-8.60822471383289,8.2,8.0,8.2
+5729,bg apartments,2018,Apartamento,66527/AL,41.1667985732862,-8.637377510730433,8.9,8.1,9.2
+5730,bg apartments,2018,Apartamento,66528/AL,41.16681817585612,-8.637389483962416,9.1,8.4,9.5
+5734,bg apartments,2018,Apartamento,66539/AL,41.166795885968696,-8.637319278269606,8.4,8.1,8.9
+5739,almada elegant & cozy apartment,2018,Apartamento,70067/AL,41.15008932198881,-8.611962572437532,,,
+5740,almada music apartment center,2018,Apartamento,77037/AL,41.150088120074564,-8.611907721231477,9.3,9.7,9.1
+5747,bessa apartments,2018,Apartamento,68758/AL,41.1610368376584,-8.64402422194971,9.3,8.6,9.4
+5748,casa da fontinha,2018,Moradia,76256/AL,41.1557189350393,-8.60570806398617,7.3,7.2,7.2
+5771,golden & blue house,2018,Apartamento,73304/AL,41.15375011540486,-8.610809482776876,,,
+5785,bolhão studio,2018,Apartamento,74996/AL,41.15118830894194,-8.607639236760624,,,
+5789,j f bolhão green balcony,2018,Apartamento,73269/AL,41.15026500446108,-8.608420660871445,,,
+5793,bolhão place,2018,Apartamento,64115/AL,41.150636018566786,-8.607822105504988,9.5,9.6,9.3
+5794,inlove bolhão,2018,Apartamento,73099/AL,41.150623833295555,-8.607772848537277,8.4,9.0,7.3
+5796,oporto like home iv,2018,Apartamento,62026/AL,41.152134543532256,-8.61186009361359,9.8,9.5,9.8
+5797,almada brook oporto apartments,2018,Apartamento,65903/AL,41.152146299850145,-8.611825900362707,,,
+5798,almada brook oporto apartments,2018,Apartamento,65904/AL,41.15214535260228,-8.611767188371694,,,
+5800,charming historical center apartment,2018,Apartamento,69320/AL,41.15213186206558,-8.611932175040469,,,
+5809,alquimia dos aliados,2018,Apartamento,67479/AL,41.14894683972504,-8.60989254831658,9.9,9.8,9.8
+5816,puro guest house,2018,Apartamento,71261/AL,41.14912013417402,-8.611874037847583,9.6,9.8,9.2
+5819,liiiving in porto | invictus bolhão market,2018,Apartamento,78039/AL,41.150207252074175,-8.608493089033379,9.3,9.5,8.9
+5831,reurban flats - santa catarina #4,2018,Apartamento,74636/AL,41.15307692197914,-8.604935469495429,8.9,8.8,8.6
+5839,in the mood for... oporto2,2018,Apartamento,76328/AL,41.15257512522059,-8.605557062096302,,,
+5862,the time downtown apartments,2018,Apartamento,66088/AL,41.15005412350557,-8.607506510956762,8.6,9.3,8.3
+5874,charming porto,2018,Apartamento,63919/AL,41.1457930936141,-8.612909472173705,,,
+5977,lamovida4,2018,Apartamento,78194/AL,41.14806195560062,-8.614342721507576,8.0,8.9,7.9
+5989,apartamento da praça,2018,Apartamento,79576/AL,41.15420081663579,-8.611702467750625,,,
+5990,t0 gc 332 6ºf,2018,Apartamento,65098/AL,41.15386286321666,-8.611044016670204,8.8,8.7,8.5
+5992,l&m apartment,2018,Apartamento,77609/AL,41.15381067398174,-8.61104741989271,,,
+5994,santa catarina central apartment,2018,Apartamento,66296/AL,41.150728071323,-8.605289743320725,9.3,9.8,9.0
+5996,santa catarina modern flat,2018,Apartamento,77507/AL,41.150708507762545,-8.605296537909283,,,
+6024,calacatta housing,2018,Apartamento,76064/AL,41.14942347932851,-8.611957714528685,9.7,9.8,9.8
+6025,be happy in porto,2018,Apartamento,72891/AL,41.14931610687292,-8.611942930079449,10.0,10.0,10.0
+6034,red wings trindade apartments,2018,Apartamento,64264/AL,41.15474493920026,-8.609129339331938,8.3,8.3,7.7
+6039,casa manuel,2018,Apartamento,67086/AL,41.15059863735696,-8.609970518964316,9.7,10.0,9.5
+6040,casa/home estêvão,2018,Apartamento,79952/AL,41.15063021642177,-8.609938597873125,9.8,9.9,9.7
+6045,studio porto,2018,Apartamento,69907/AL,41.14999925073202,-8.60614399911724,8.9,9.9,8.8
+6046,bonjardim apartments,2018,Estabelecimento de hospedagem,72898/AL,41.15640225207857,-8.607865379458117,8.2,7.3,8.1
+6074,the gate 1,2018,Estabelecimento de hospedagem,77963/AL,41.14698839464964,-8.608586072125187,-1.0,9.7,8.8
+6077,liiiving in porto | downtown luxury studio,2018,Apartamento,72634/AL,41.14698142541282,-8.60875017723828,9.9,10.0,9.8
+6079,feel porto downtown theater studio,2018,Apartamento,77562/AL,41.14694888251425,-8.608669256549666,9.4,9.2,9.1
+6117,bright & cozy room in downtown porto,2018,Estabelecimento de hospedagem,62085/AL,41.15035798418492,-8.608826505163757,-1.0,9.6,8.3
+6135,open door oporto fontaínhas apartment,2018,Apartamento,74078/AL,41.14440108618702,-8.602884078761722,,,
+6137,looking river sé 7,2018,Apartamento,70089/AL,41.142546462119135,-8.612685644351702,9.2,9.6,8.9
+6145,casas do loureiro,2018,Moradia,69892/AL,41.14479207587405,-8.609367167201833,9.7,9.7,9.4
+6146,looking river mercadores old flat,2018,Apartamento,70976/AL,41.14248160603995,-8.613573616702933,8.2,9.2,8.3
+6180,porto downtown,2018,Apartamento,64566/AL,41.152312715832466,-8.607498470721113,8.1,8.7,7.9
+6194,alegria,2018,Apartamento,77416/AL,41.14984582999085,-8.604276764809809,9.1,9.6,7.9
+6207,liiiving in porto | art & heart studio,2018,Apartamento,78411/AL,41.147620090205784,-8.603355713227012,9.5,9.4,9.2
+6212,adorable apartment in great area 3,2018,Apartamento,72715/AL,41.14233531185333,-8.615126173801425,7.9,9.6,7.3
+6215,oporto ceuta residences - residence 1,2018,Apartamento,63081/AL,41.148468904238804,-8.613726437098293,10.0,10.0,10.0
+6216,oporto ceuta residences - residence 14,2018,Apartamento,65287/AL,41.14851705678546,-8.613719854694077,9.4,10.0,8.8
+6217,ceuta penthouse,2018,Apartamento,69969/AL,41.14839700026665,-8.613715825410038,9.7,9.9,9.4
+6218,min porto inn,2018,Apartamento,71429/AL,41.14839700026665,-8.613715825410038,9.3,9.6,8.5
+6226,boutique hotel privatti,2018,Estabelecimento de hospedagem,70656/AL,41.14602352383088,-8.607306052104226,9.2,9.6,8.6
+6228,porto apartment batalha,2018,Apartamento,79490/AL,41.14522651710053,-8.607505191755177,8.4,9.0,7.7
+6240,sho lubi i i,2018,Apartamento,78714/AL,41.14596828676319,-8.60581183299682,,,
+6257,oporto forever formosa,2018,Apartamento,77352/AL,41.14803084975606,-8.604769459010654,7.9,8.9,8.2
+6263,kimia casa - porto,2018,Apartamento,75279/AL,41.14781408028609,-8.60492115115216,9.8,10.0,9.4
+6272,ruby charm houses 6,2018,Moradia,63367/AL,41.15936279186623,-8.60728008877819,9.3,8.5,9.0
+6273,ruby charm houses 7,2018,Moradia,64706/AL,41.159386515518094,-8.607246687732887,9.7,9.2,9.2
+6277,villa loios i,2018,Apartamento,77568/AL,41.145610287416005,-8.612984026334981,8.9,9.5,8.2
+6278,villa loios ii,2018,Apartamento,77573/AL,41.1456232023668,-8.61297214368116,8.9,9.5,8.2
+6279,loios flat,2018,Apartamento,78110/AL,41.14562841986066,-8.612977855355512,9.6,10.0,9.6
+6280,villa loios iv,2018,Apartamento,78290/AL,41.14563654092029,-8.61297287138426,8.9,9.5,8.2
+6281,villa loios iii,2018,Apartamento,78296/AL,41.145620309348374,-8.612980316521377,8.9,9.5,8.2
+6283,"vila loios, oporto delight 1.3",2018,Apartamento,79945/AL,41.145614370345704,-8.61297617666779,9.7,10.0,9.9
+6284,"vila loios, oporto delight 2.1",2018,Apartamento,79966/AL,41.145603639672096,-8.61297861985649,9.7,9.8,9.5
+6306,porto branca apartment,2018,Apartamento,70366/AL,41.14514292473441,-8.612664483501879,,,
+6329,little treasure studio,2018,Apartamento,64073/AL,41.14777861592759,-8.615358147501123,,,
+6359,sweetspot apartments,2018,Apartamento,65824/AL,41.14879742473252,-8.61283465319683,9.5,9.8,9.5
+6364,apartamento picaria,2018,Apartamento,75875/AL,41.14964599657424,-8.613122513131428,,,
+6366,1905 apartments,2018,Apartamento,65368/AL,41.14770181483209,-8.614313258174223,7.8,8.7,7.7
+6411,oporto4all fontainhas,2018,Apartamento,78505/AL,41.1436318554908,-8.602086265990366,9.2,8.6,9.1
+6413,oporto4all fontainhas - e,2018,Apartamento,78974/AL,41.143645719389745,-8.602075018612524,9.2,8.6,9.1
+6414,oporto4all fontainhas f,2018,Apartamento,78976/AL,41.143636530293854,-8.602108360236599,9.2,8.6,9.1
+6423,nova alegria,2018,Apartamento,63005/AL,41.1467874263831,-8.603944700954541,8.8,9.2,8.3
+6447,flamingo rose,2018,Apartamento,78573/AL,41.166367238442746,-8.587409154797747,9.1,8.8,9.0
+6458,flores central,2018,Apartamento,77126/AL,41.14496992791605,-8.611429722983214,,,
+6459,flores 4º,2018,Apartamento,78082/AL,41.14496537534771,-8.61143599335349,,,
+6494,nuno fs almada,2018,Apartamento,62517/AL,41.14970972738344,-8.612306645898268,9.1,9.6,9.1
+6539,downtown porto spot 2,,Apartamento,81331/AL,41.15376396380027,-8.609601939668156,,,
+6562,feel porto downtown charming apartment 1,,Apartamento,81079/AL,41.15255551097393,-8.605547071249097,9.1,9.3,8.7
+6563,feel porto downtown charming apartment 2,,Apartamento,81083/AL,41.152559326952776,-8.605487998002776,9.1,9.3,8.7
+6589,formosa 213 ap,,Apartamento,81459/AL,41.147937330833045,-8.60546213487619,,,
+6611,bright downtown apartment,,Apartamento,62142/AL,41.14896441467328,-8.612293686156486,9.5,9.8,9.2
+6616,carregal,,Apartamento,63942/AL,41.14907540685992,-8.616826139664978,,,
+6624,andré filipe pereira vieira,,Apartamento,69414/AL,41.15380209961285,-8.626354099932856,9.4,9.1,9.4
+6645,,,,,41.15983108445227,-8.62070048564815,9.0,8.5,9.2
+6646,,,,,41.15734032168283,-8.619426021685618,9.0,8.5,9.2
+6647,,,,,41.159486043963014,-8.62074470782152,9.0,8.5,9.2
+6648,,,,,41.15946337065282,-8.620782367713804,9.0,8.5,9.2
+6649,,,,,41.15950690074024,-8.620714126873022,9.0,8.5,9.2
+6650,,,,,41.159713181260756,-8.620594996611528,9.0,8.5,9.2
+6651,,,,,41.15008123991272,-8.6063093673627,9.0,8.5,9.2
+6653,ana d'ouro apartment ii,2018,Apartamento,80366/AL,41.15005693563591,-8.6063537133112,9.6,9.9,9.4
