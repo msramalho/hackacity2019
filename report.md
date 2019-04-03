@@ -5,3 +5,5 @@ In the [Alojamentos Locais Dataset](https://servsig.cm-porto.pt/arcgis/rest/serv
  * 17775/AL
  * 27604/AL
  * 29751/AL
+
+ 
