@@ -36,7 +36,7 @@ if __name__ == '__main__':
     index_start, size = list(map(int, sys.argv[1:]))
 
     data = list()
-    urls = json.load(open('json_data.json', 'r'))
+    urls = json.load(open('json_data_%d_%d.json' % (index_start, size), 'r'))
 
     driver = webdriver.Firefox()
     for index, url in enumerate(urls):
@@ -47,5 +47,5 @@ if __name__ == '__main__':
             print('Listing :' + str(index))
             scrape_listing(driver, url, data)
         except Exception:
-            json.dump(data, open('listing-data-2.json', 'a'))
+            json.dump(data, open('json_data_%d_%d_2.json' % (index_start, size), 'a'))
 
