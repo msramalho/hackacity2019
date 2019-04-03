@@ -52,5 +52,5 @@ if __name__ == '__main__':
             print('Listing :' + str(index))
             scrape_listing(driver, url, data)
         except Exception:
-            json.dump(data, open('booking_new/json_data_%d_%d_2.json' % (index_start, size), 'a+'))
+            json.dump(data, open('booking_error/json_data_%d_%d_2.json' % (index_start, size), 'a+'))
 
