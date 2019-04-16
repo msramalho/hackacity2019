@@ -24,3 +24,4 @@ Repo for the work presented at Hackacity 2019, which led to a 2nd Prize on the c
 A script to download all the datasets is available in [download_all.ipynb](download_all.ipynb) and the remaining data is available on the [datasets/](datasets/) folder. 
 
 The temporary datasets that were built and used during the competition are available in the [generated_datasets/](generated_datasets/) folder (Initially they were in the root folder and the notebooks still expect that).
+
