@@ -1,7 +1,13 @@
-# Hackacity 2019
+<h1 align="center">Hackacity 2019</h1>
+<h2 align="center">Team PYTO</h2>
 
+<h4 align="center">Repo for the work presented at Hackacity 2019, which led to a 2nd Prize on the competition 🏆.</h4>
 
-Repo for the work presented at Hackacity 2019, which led to a 2nd Prize on the competition 🏆.
+<h3 align="center">We tackled the Local Housing (Alojamento Local) problem</h3>
+
+<img align="center" src="pics/todos_alojamentos_locais.png"/>
+
+<p align="center">The final presentation is available <a href="presentation.pdf">here</a></p>
 
 # Problem and Goals
  * Use regression techniques to uncover what makes local housing (Alojamento Local) locations be valued by customers and entrepreneurs so that the municipality can better understand how to approach the overflow of local housing problem and how to influence its evolution overtime.
@@ -25,3 +31,10 @@ A script to download all the datasets is available in [download_all.ipynb](downl
 
 The temporary datasets that were built and used during the competition are available in the [generated_datasets/](generated_datasets/) folder (Initially they were in the root folder and the notebooks still expect that).
 
+
+# Team
+* [António Almeida](https://github.com/antonioalmeida)
+* [Henrique Vasconcelos](https://github.com/henriquetguedes)
+* [Miguel Leite](https://github.com/MLobo1997)
+* [Miguel Ramalho](https://github.com/msramalho/)
+* [Xavier Fontes](https://github.com/xfontes42)
