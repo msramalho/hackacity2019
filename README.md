@@ -10,8 +10,8 @@
 <p align="center">The final presentation is available <a href="presentation.pdf">here</a></p>
 
 # Problem and Goals
- * Use regression techniques to uncover what makes local housing (Alojamento Local) locations be valued by customers and entrepreneurs so that the municipality can better understand how to approach the overflow of local housing problem and how to influence its evolution overtime.
- * Detect local housing establishments on booking.com that are not listed in the official municipality dataset, a helping hand in finding illegal establishments.
+ * Use regression techniques to uncover what makes local housing (Alojamento Local) locations be valued by customers and entrepreneurs so that the municipality can better understand how to approach the overflow of local housing problem and how to influence its evolution overtime
+ * Detect local housing establishments on booking.com that are not listed in the official municipality dataset, a helping hand in finding illegal establishments
 
 
 # Data Science Pipeline
